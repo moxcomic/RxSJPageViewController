@@ -1,0 +1,6 @@
+framework module Pods_RxSJPageViewController_RxSJPageViewControllerTests {
+  umbrella header "Pods-RxSJPageViewController-RxSJPageViewControllerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

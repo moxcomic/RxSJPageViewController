@@ -1,0 +1,59 @@
+PODS:
+  - Differentiator (4.0.1)
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSJPageViewController (0.0.1):
+    - RxDataSources
+    - RxSwift
+    - SJPageViewController/ObjC
+  - RxSwift (5.1.1)
+  - SJPageViewController/ObjC (0.0.10):
+    - SJPageViewController/ObjC/PageMenuBar (= 0.0.10)
+    - SJPageViewController/ObjC/PageViewController (= 0.0.10)
+  - SJPageViewController/ObjC/PageMenuBar (0.0.10):
+    - SJPageViewController/ObjC/PageMenuBar/Core (= 0.0.10)
+  - SJPageViewController/ObjC/PageMenuBar/Core (0.0.10)
+  - SJPageViewController/ObjC/PageViewController (0.0.10):
+    - SJPageViewController/ObjC/PageViewController/Core (= 0.0.10)
+  - SJPageViewController/ObjC/PageViewController/Core (0.0.10)
+
+DEPENDENCIES:
+  - "NSObject+Rx"
+  - RxSJPageViewController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Differentiator
+    - "NSObject+Rx"
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SJPageViewController
+
+EXTERNAL SOURCES:
+  RxSJPageViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSJPageViewController: 18363ad15da43770850edc15b4ae4bd5ef95be7a
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SJPageViewController: c8110e31f4ca4c9fe1034497ff6919134ebf0bfd
+
+PODFILE CHECKSUM: e7df6196234f4bc115d35a8d9dafe0be40d615ec
+
+COCOAPODS: 1.9.1

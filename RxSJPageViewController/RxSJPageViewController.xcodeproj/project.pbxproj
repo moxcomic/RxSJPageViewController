@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026795C2248640A80065ACEE /* RxSJPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026795B8248640A80065ACEE /* RxSJPageViewController.framework */; };
+		026795C7248640A80065ACEE /* RxSJPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026795C6248640A80065ACEE /* RxSJPageViewControllerTests.swift */; };
+		026795C9248640A80065ACEE /* RxSJPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 026795BB248640A80065ACEE /* RxSJPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02679610248641FA0065ACEE /* RxSJPageViewControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267960F248641FA0065ACEE /* RxSJPageViewControllerDelegateProxy.swift */; };
+		02679612248644500065ACEE /* SJPageViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02679611248644500065ACEE /* SJPageViewController+Extension.swift */; };
+		02679614248644EB0065ACEE /* SJPageViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02679613248644EB0065ACEE /* SJPageViewController+Rx.swift */; };
+		0267961624864B1C0065ACEE /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267961524864B1C0065ACEE /* Defines.swift */; };
+		0267962024868F980065ACEE /* ObservableType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267961F24868F980065ACEE /* ObservableType+Extension.swift */; };
+		02E42C5824878DF200EAFC9D /* SJPageViewControllerSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42C5224878DF200EAFC9D /* SJPageViewControllerSectionedDataSource.swift */; };
+		02E42C5924878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42C5324878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift */; };
+		02E42C5B24878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42C5524878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift */; };
+		02E42C5C24878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42C5624878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift */; };
+		27F1A4DDF4A1478714D6C3DE /* Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F7C9AAC1E3F7B318D69F00 /* Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework */; };
+		9DF8F1A0D635F9F2F5ABD602 /* Pods_RxSJPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5562B5ED18690B282E02409 /* Pods_RxSJPageViewController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		026795C3248640A80065ACEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026795AF248640A80065ACEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026795B7248640A80065ACEE;
+			remoteInfo = RxSJPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026795B8248640A80065ACEE /* RxSJPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSJPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		026795BB248640A80065ACEE /* RxSJPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSJPageViewController.h; sourceTree = "<group>"; };
+		026795BC248640A80065ACEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026795C1248640A80065ACEE /* RxSJPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSJPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026795C6248640A80065ACEE /* RxSJPageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerTests.swift; sourceTree = "<group>"; };
+		026795C8248640A80065ACEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0267960F248641FA0065ACEE /* RxSJPageViewControllerDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDelegateProxy.swift; sourceTree = "<group>"; };
+		02679611248644500065ACEE /* SJPageViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SJPageViewController+Extension.swift"; sourceTree = "<group>"; };
+		02679613248644EB0065ACEE /* SJPageViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SJPageViewController+Rx.swift"; sourceTree = "<group>"; };
+		0267961524864B1C0065ACEE /* Defines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		0267961F24868F980065ACEE /* ObservableType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extension.swift"; sourceTree = "<group>"; };
+		02E42C5224878DF200EAFC9D /* SJPageViewControllerSectionedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJPageViewControllerSectionedDataSource.swift; sourceTree = "<group>"; };
+		02E42C5324878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerReloadDataSource.swift; sourceTree = "<group>"; };
+		02E42C5524878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceType.swift; sourceTree = "<group>"; };
+		02E42C5624878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceProxy.swift; sourceTree = "<group>"; };
+		0BCF2119AF29D0D0BA848D0A /* Pods-RxSJPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSJPageViewController.release.xcconfig"; path = "Target Support Files/Pods-RxSJPageViewController/Pods-RxSJPageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		0F926D39A6B464A5222EA147 /* Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSJPageViewController-RxSJPageViewControllerTests/Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		424B3716D03B7F3757E305A7 /* Pods-RxSJPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSJPageViewController.debug.xcconfig"; path = "Target Support Files/Pods-RxSJPageViewController/Pods-RxSJPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		67F7C9AAC1E3F7B318D69F00 /* Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E506238DCF2963D22491B6 /* Pods-RxSJPageViewController-RxSJPageViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSJPageViewController-RxSJPageViewControllerTests.release.xcconfig"; path = "Target Support Files/Pods-RxSJPageViewController-RxSJPageViewControllerTests/Pods-RxSJPageViewController-RxSJPageViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5562B5ED18690B282E02409 /* Pods_RxSJPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSJPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026795B5248640A80065ACEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF8F1A0D635F9F2F5ABD602 /* Pods_RxSJPageViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026795BE248640A80065ACEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026795C2248640A80065ACEE /* RxSJPageViewController.framework in Frameworks */,
+				27F1A4DDF4A1478714D6C3DE /* Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026795AE248640A80065ACEE = {
+			isa = PBXGroup;
+			children = (
+				026795D2248640B60065ACEE /* Source */,
+				026795BA248640A80065ACEE /* RxSJPageViewController */,
+				026795C5248640A80065ACEE /* RxSJPageViewControllerTests */,
+				026795B9248640A80065ACEE /* Products */,
+				2E6C0FC0377EED21DEE8300E /* Pods */,
+				1BAFFE713AD00FBC763F82D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		026795B9248640A80065ACEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026795B8248640A80065ACEE /* RxSJPageViewController.framework */,
+				026795C1248640A80065ACEE /* RxSJPageViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026795BA248640A80065ACEE /* RxSJPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				026795BB248640A80065ACEE /* RxSJPageViewController.h */,
+				026795BC248640A80065ACEE /* Info.plist */,
+			);
+			path = RxSJPageViewController;
+			sourceTree = "<group>";
+		};
+		026795C5248640A80065ACEE /* RxSJPageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				026795C6248640A80065ACEE /* RxSJPageViewControllerTests.swift */,
+				026795C8248640A80065ACEE /* Info.plist */,
+			);
+			path = RxSJPageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		026795D2248640B60065ACEE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				02E42C452487854900EAFC9D /* SJPageViewController */,
+				0267961524864B1C0065ACEE /* Defines.swift */,
+				0267961F24868F980065ACEE /* ObservableType+Extension.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		02E42C442487854300EAFC9D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0267960F248641FA0065ACEE /* RxSJPageViewControllerDelegateProxy.swift */,
+				02679613248644EB0065ACEE /* SJPageViewController+Rx.swift */,
+				02679611248644500065ACEE /* SJPageViewController+Extension.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		02E42C452487854900EAFC9D /* SJPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				02E42C442487854300EAFC9D /* Delegate */,
+				02E42C462487856300EAFC9D /* DataSource */,
+			);
+			path = SJPageViewController;
+			sourceTree = "<group>";
+		};
+		02E42C462487856300EAFC9D /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				02E42C5624878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift */,
+				02E42C5524878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift */,
+				02E42C5324878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift */,
+				02E42C5224878DF200EAFC9D /* SJPageViewControllerSectionedDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		1BAFFE713AD00FBC763F82D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5562B5ED18690B282E02409 /* Pods_RxSJPageViewController.framework */,
+				67F7C9AAC1E3F7B318D69F00 /* Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E6C0FC0377EED21DEE8300E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				424B3716D03B7F3757E305A7 /* Pods-RxSJPageViewController.debug.xcconfig */,
+				0BCF2119AF29D0D0BA848D0A /* Pods-RxSJPageViewController.release.xcconfig */,
+				0F926D39A6B464A5222EA147 /* Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig */,
+				A0E506238DCF2963D22491B6 /* Pods-RxSJPageViewController-RxSJPageViewControllerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		026795B3248640A80065ACEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026795C9248640A80065ACEE /* RxSJPageViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		026795B7248640A80065ACEE /* RxSJPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026795CC248640A80065ACEE /* Build configuration list for PBXNativeTarget "RxSJPageViewController" */;
+			buildPhases = (
+				B833EEDAE371406EDFA1EABD /* [CP] Check Pods Manifest.lock */,
+				026795B3248640A80065ACEE /* Headers */,
+				026795B4248640A80065ACEE /* Sources */,
+				026795B5248640A80065ACEE /* Frameworks */,
+				026795B6248640A80065ACEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSJPageViewController;
+			productName = RxSJPageViewController;
+			productReference = 026795B8248640A80065ACEE /* RxSJPageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		026795C0248640A80065ACEE /* RxSJPageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026795CF248640A80065ACEE /* Build configuration list for PBXNativeTarget "RxSJPageViewControllerTests" */;
+			buildPhases = (
+				B666495B9C440B9BE5C154B2 /* [CP] Check Pods Manifest.lock */,
+				026795BD248640A80065ACEE /* Sources */,
+				026795BE248640A80065ACEE /* Frameworks */,
+				026795BF248640A80065ACEE /* Resources */,
+				1D8D613C1BEEBB6E13EAD62C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026795C4248640A80065ACEE /* PBXTargetDependency */,
+			);
+			name = RxSJPageViewControllerTests;
+			productName = RxSJPageViewControllerTests;
+			productReference = 026795C1248640A80065ACEE /* RxSJPageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026795AF248640A80065ACEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = moxcomic;
+				TargetAttributes = {
+					026795B7248640A80065ACEE = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					026795C0248640A80065ACEE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 026795B2248640A80065ACEE /* Build configuration list for PBXProject "RxSJPageViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 026795AE248640A80065ACEE;
+			productRefGroup = 026795B9248640A80065ACEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				026795B7248640A80065ACEE /* RxSJPageViewController */,
+				026795C0248640A80065ACEE /* RxSJPageViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026795B6248640A80065ACEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026795BF248640A80065ACEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D8D613C1BEEBB6E13EAD62C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSJPageViewController-RxSJPageViewControllerTests/Pods-RxSJPageViewController-RxSJPageViewControllerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSJPageViewController-RxSJPageViewControllerTests/Pods-RxSJPageViewController-RxSJPageViewControllerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSJPageViewController-RxSJPageViewControllerTests/Pods-RxSJPageViewController-RxSJPageViewControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B666495B9C440B9BE5C154B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSJPageViewController-RxSJPageViewControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B833EEDAE371406EDFA1EABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSJPageViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026795B4248640A80065ACEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E42C5824878DF200EAFC9D /* SJPageViewControllerSectionedDataSource.swift in Sources */,
+				02E42C5B24878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift in Sources */,
+				02E42C5C24878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift in Sources */,
+				02679612248644500065ACEE /* SJPageViewController+Extension.swift in Sources */,
+				0267962024868F980065ACEE /* ObservableType+Extension.swift in Sources */,
+				02679614248644EB0065ACEE /* SJPageViewController+Rx.swift in Sources */,
+				02E42C5924878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift in Sources */,
+				0267961624864B1C0065ACEE /* Defines.swift in Sources */,
+				02679610248641FA0065ACEE /* RxSJPageViewControllerDelegateProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026795BD248640A80065ACEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026795C7248640A80065ACEE /* RxSJPageViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026795C4248640A80065ACEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026795B7248640A80065ACEE /* RxSJPageViewController */;
+			targetProxy = 026795C3248640A80065ACEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026795CA248640A80065ACEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		026795CB248640A80065ACEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		026795CD248640A80065ACEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424B3716D03B7F3757E305A7 /* Pods-RxSJPageViewController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RxSJPageViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.RxSJPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		026795CE248640A80065ACEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCF2119AF29D0D0BA848D0A /* Pods-RxSJPageViewController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RxSJPageViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.RxSJPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		026795D0248640A80065ACEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F926D39A6B464A5222EA147 /* Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = RxSJPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.RxSJPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		026795D1248640A80065ACEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E506238DCF2963D22491B6 /* Pods-RxSJPageViewController-RxSJPageViewControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU8H9UQL9A;
+				INFOPLIST_FILE = RxSJPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxcomic.RxSJPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026795B2248640A80065ACEE /* Build configuration list for PBXProject "RxSJPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026795CA248640A80065ACEE /* Debug */,
+				026795CB248640A80065ACEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026795CC248640A80065ACEE /* Build configuration list for PBXNativeTarget "RxSJPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026795CD248640A80065ACEE /* Debug */,
+				026795CE248640A80065ACEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026795CF248640A80065ACEE /* Build configuration list for PBXNativeTarget "RxSJPageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026795D0248640A80065ACEE /* Debug */,
+				026795D1248640A80065ACEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026795AF248640A80065ACEE /* Project object */;
+}
