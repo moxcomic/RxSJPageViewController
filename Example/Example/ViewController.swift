@@ -32,6 +32,10 @@ class ViewController: UIViewController {
             case "b", "c": return UITableViewController()
             default: return UITableViewController()
             }
+        }, configureHeaderView: { _, _ in
+            let headerView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 240))
+            headerView.backgroundColor = #colorLiteral(red: 0.2120229304, green: 0.6384014487, blue: 0.960485518, alpha: 1)
+            return (headerView, 240, SJPageViewControllerHeaderModePinnedToTop)
         })
         self.subject.asObserver().bind(to: self.pageViewController.rx.pages(dataSource: dataSource)).disposed(by: rx.disposeBag)
         

@@ -20,6 +20,18 @@ private final class SJPageViewControllerDataSourceNotSet: NSObject, SJPageViewCo
     func pageViewController(_ pageViewController: SJPageViewController, viewControllerAt index: Int) -> UIViewController {
         return UITableViewController()
     }
+    
+    func viewForHeader(in pageViewController: SJPageViewController) -> UIView? {
+        return nil
+    }
+    
+    func heightForHeaderPinToVisibleBounds(with pageViewController: SJPageViewController) -> CGFloat {
+        return 0
+    }
+    
+    func modeForHeader(with pageViewController: SJPageViewController) -> SJPageViewControllerHeaderMode {
+        return SJPageViewControllerHeaderModePinnedToTop
+    }
 }
 
 open class RxSJPageViewControllerDataSourceProxy: DelegateProxy<SJPageViewController, SJPageViewControllerDataSource>,
