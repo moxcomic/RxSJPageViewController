@@ -80,7 +80,7 @@ open class SJPageViewControllerSectionedDataSource<Section: SectionModelType>: N
     }
     
     public func numberOfViewControllers(in pageViewController: SJPageViewController) -> UInt {
-        return UInt(_sectionModels[0].items.count)
+        return _sectionModels.count > 0 ? UInt(_sectionModels[0].items.count) : 0
     }
     
     public func pageViewController(_ pageViewController: SJPageViewController, viewControllerAt index: Int) -> UIViewController {

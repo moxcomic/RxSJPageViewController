@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         
         let dataSource = RxSJPageViewControllerReloadDataSource<SectionModel<String, String>>(configureViewController: {
             (_, pageVC, index, element) in
+            print("index: \(index)")
             switch element.identity {
             case "a": return UITableViewController()
             case "b", "c": return UITableViewController()
