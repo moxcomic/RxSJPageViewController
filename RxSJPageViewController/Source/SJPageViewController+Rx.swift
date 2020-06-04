@@ -20,15 +20,8 @@ extension Reactive where Base: SJPageViewController {
         -> (_ source: Source)
         -> Disposable
         where DataSource.Element == Source.Element {
-        return { source in
-            // This is called for sideeffects only, and to make sure delegate proxy is in place when
-            // data source is being bound.
-            // This is needed because theoretically the data source subscription itself might
-            // call `self.rx.delegate`. If that happens, it might cause weird side effects since
-            // setting data source will set delegate, and UITableView might get into a weird state.
-            // Therefore it's better to set delegate proxy first, just to be sure.
+        return { (source) in
             _ = self.delegate
-            // Strong reference is needed because data source is in use until result subscription is disposed
             return source.subscribeProxyDataSource(ofObject: self.base, dataSource: dataSource as SJPageViewControllerDataSource, retainDataSource: true) { [weak pageViewController = self.base] (_: RxSJPageViewControllerDataSourceProxy, event) -> Void in
                 guard let pageViewController = pageViewController else {
                     return
@@ -42,6 +35,11 @@ extension Reactive where Base: SJPageViewController {
 extension Reactive where Base: SJPageViewController {
     public var delegate: RxSJPageViewControllerDelegateProxy {
         return RxSJPageViewControllerDelegateProxy.proxy(for: base)
+    }
+    
+    public func setDelegate(_ delegate: SJPageViewControllerDelegate)
+        -> Disposable {
+            return RxSJPageViewControllerDelegateProxy.installForwardDelegate(delegate, retainDelegate: false, onProxyForObject: self.base)
     }
     
     public var headerViewVisibleRectDidChange: ControlEvent<(pageViewController: SJPageViewController, visibleRect: CGRect)> {
@@ -90,5 +88,16 @@ extension Reactive where Base: SJPageViewController {
                         try castOrThrow(Int.self, a[2]))
         }
         return ControlEvent(events: source)
+    }
+}
+
+extension Reactive where Base: SJPageViewController {
+    public var dataSource: DelegateProxy<SJPageViewController, SJPageViewControllerDataSource> {
+        return RxSJPageViewControllerDataSourceProxy.proxy(for: base)
+    }
+    
+    public func setDataSource(_ dataSource: SJPageViewControllerDataSource)
+        -> Disposable {
+            return RxSJPageViewControllerDataSourceProxy.installForwardDelegate(dataSource, retainDelegate: false, onProxyForObject: self.base)
     }
 }

@@ -24,10 +24,9 @@
 		09FE161DE9B67F021D7CCCE083EA3B1C /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948694AD4D552480F923F0870A028F57 /* Diff.swift */; };
 		0A91796EE2B4F220A29379096ECC52AB /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F30030D8506B8FF200C1A0FB50593F /* UIViewController+Rx.swift */; };
 		0AA3AA11533ABE5FCBB6DC1B0F6830E5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B010818C8C70F23A8560DA240825F4AF /* RxSwift.framework */; };
-		0AA40021DBC99319FCF146B7CE43FA2E /* SJPageMenuBarScrollIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC3DE92456DEA076D07B31F3E7E39A /* SJPageMenuBarScrollIndicator.m */; };
-		0B1F80F40443A99AFF454036F2704721 /* SJPageViewControllerItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B03D6A6F55D1E425F635A40BAE078C /* SJPageViewControllerItemCell.m */; };
 		0BEA70E2742DF3230766B9B84BC0450F /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C86A133C51FB88B964B0B98C73952E /* Platform.Linux.swift */; };
 		0BF863B5E417C1776934893AAE8B9397 /* RxPickerViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB3BC6FDE47A20573A4657710E61E9 /* RxPickerViewAdapter.swift */; };
+		0C2C6F0F6B98D7656CF35A8C887CB342 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B010818C8C70F23A8560DA240825F4AF /* RxSwift.framework */; };
 		0C7697EA7C36A6CE040227E48C834FFD /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D3DA16A11C6A608152F62E9374991 /* InvocableType.swift */; };
 		0D7EEDD1755456AD6E1B6B70968B67D7 /* RxRelay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6558BBA006F311FAA4FEE5F42B7862D5 /* RxRelay-dummy.m */; };
 		0F5E1894609BC67AD7B3FCF1B776D2B6 /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD61DD30185DEC1BC0F9AD6389DFD44 /* SynchronizedOnType.swift */; };
@@ -41,7 +40,6 @@
 		127FE7C16883F98B27F5962FB3F9432C /* ControlEvent+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE2A33667087ABE29C49B28F7DEDB2 /* ControlEvent+Signal.swift */; };
 		12C7839835F6A385A0D7CF9198B42BE8 /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B9AFE8D75FA4A8A99BFA32A062C76F /* Sink.swift */; };
 		14EDBE4C04A96C0F0712681EB5E73017 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5306940BAC5CE3C8AA659F107ED4642 /* ObservableConvertibleType.swift */; };
-		1506487BB805053C544A85CA47A2C1C5 /* RxSJPageViewControllerReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E0972BB10F687A100171CF14143B4F /* RxSJPageViewControllerReloadDataSource.swift */; };
 		1507F8023C62D89B1C3715D5A2113062 /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01454B944A0FC5BCCADC4FEA9C74C5F /* Timeout.swift */; };
 		15A1F1820CA3A145A6262E6D50FB2359 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419273265387D5BAAE3FAA5FF28F5B3D /* Window.swift */; };
 		15C2AE2C2D72F84E24B6AD28713CF246 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9F4E4A866BC0833B37DF36E0C5DC80 /* DispatchQueue+Extensions.swift */; };
@@ -58,13 +56,13 @@
 		1E4A17E1487A3F60962D84A8F6583E12 /* AsSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DDB1052B867B31C33F9B938FA871D /* AsSingle.swift */; };
 		1E520A8A33C2A1597372304576F22C1B /* TakeWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163FA5DB57CF51A4C943C4415771485 /* TakeWhile.swift */; };
 		225E87CB1ADA660CEE7630E8182732D3 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7086CB915D76EAE15676B2C07A570FA /* ElementAt.swift */; };
+		2377DC3BFDAB12E2BA856B1290079A35 /* SJPageMenuBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 377EC5D0E3CC686B87D85A235B8CCFEF /* SJPageMenuBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23EF1D47096702F8AE4A82B76C29BEF0 /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D5B404A86BC6CC90A2FE5346CC4B0 /* ReplaySubject.swift */; };
 		241588D302CF69F54DD7C9DE826BFDBA /* UIApplication+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36217E9B8041B060D8AFEAF54EB02F6A /* UIApplication+Rx.swift */; };
 		245D19704D08F24AA932B2C04F0AF4A4 /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49513FFE2D22578BEC4641EFB30A9EB /* SingleAsync.swift */; };
 		2533B682C85887B00E1A7DE6EBF23B46 /* UICollectionView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7646046407DEFC64DDFC9E3B9870F5B /* UICollectionView+Rx.swift */; };
 		265B2D45F0F297DE86B95F10878039D0 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444CDC8149AD046DA55EEFF741CFAC2 /* DispatchQueue+Extensions.swift */; };
 		2749964BCB1B0748DED381498B167DDE /* RxPickerViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31F1E1675F415866600B95FDF8ACF1F /* RxPickerViewAdapter.swift */; };
-		28A16E3200B19BBD47DFB3B7A4BC5DD0 /* RxSJPageViewControllerDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC42A0620000556A9FCBF735665EF7 /* RxSJPageViewControllerDataSourceType.swift */; };
 		29162E65F48AB0C4A8878109DD836781 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FF4AC8806DB7DF282489707CD03768 /* Zip+Collection.swift */; };
 		29A07B12BE7E2D9991323B2C9CA4D9CF /* IntegerType+IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D55C89AA571FC9E3C887837B45DA1 /* IntegerType+IdentifiableType.swift */; };
 		2A77E7D98909032ECEC1FB11814AABF8 /* RxCollectionViewSectionedReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8086FDA06451A7F89AE25501A176FB6A /* RxCollectionViewSectionedReloadDataSource.swift */; };
@@ -73,24 +71,25 @@
 		3098403FCB19D2C9422CF4E60C75AF0C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBB59FCED2629356F5EB1810360362 /* Queue.swift */; };
 		30DAE88555734D8C6EA55F5D2132E458 /* AnimatableSectionModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA393096AB94989814203547A5B013D3 /* AnimatableSectionModelType.swift */; };
 		328B38BAC9CD9F5FF574BF7AE23312CC /* ControlProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170625D59050776E7B824E9966080AA2 /* ControlProperty.swift */; };
-		32E9A269D356BE3704A52F2B83259F68 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B010818C8C70F23A8560DA240825F4AF /* RxSwift.framework */; };
 		34820B22597B0F1BC215337118FCC31B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
+		350F874744386B181DEA329D8364839B /* UIViewController+SJPageViewControllerExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C8478CAF825194503730E2A2D637E /* UIViewController+SJPageViewControllerExtended.m */; };
 		35DF64CE44F2148864956CA612457C46 /* RxPickerViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5AD326A64CAA526C83AB9BD5C7E39 /* RxPickerViewDelegateProxy.swift */; };
 		35E9AEA6D957D176850FDB1BC00D2969 /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA045FEF78193C32D32AD15B68346F /* SubscribeOn.swift */; };
 		36AAA65075BDB5F83209083E274C5EA5 /* AnimatableSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251728D8F1D936A68D1DA856EC66817 /* AnimatableSectionModel.swift */; };
-		37C14EE87D57B6AE1C02F2BF00E5B6F2 /* SJPageViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC528F38BDCBF0B92D9E26ADD2F2150 /* SJPageViewController+Extension.swift */; };
 		3AAF91BDBADCA715C2E9A11E22A7DC19 /* UIButton+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1800F4FD9FEE41C05B547C8EE71B352 /* UIButton+Rx.swift */; };
+		3CBB77EAE746049B7CB4A68D845B4864 /* UIViewController+SJPageViewControllerExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E45B77B842A9F8B5E5D8279D58A107 /* UIViewController+SJPageViewControllerExtended.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CBF696935D34A6D4A65881EE1586D46 /* RxSJPageMenuBarDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033B87745F2CDCD442CDB5BCCC61263 /* RxSJPageMenuBarDelegateProxy.swift */; };
 		3D15C11BE3901E529281ED54C29DB4FA /* SchedulerType+SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113372274EEA3558E7D71C45B82FB01 /* SchedulerType+SharedSequence.swift */; };
 		3E5484AF7B1E74D8415CA2E63E682A5D /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C492633B9E54ACA7C19E612FFF6294 /* SynchronizedDisposeType.swift */; };
 		3EBF80501E17D10BACBD67246E398B78 /* UISearchBar+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99A0E92A7387F9461630C70F98B703 /* UISearchBar+Rx.swift */; };
+		3ED5CF5C566418FFC0A921D82506A1F3 /* RxSJPageViewControllerDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BB5D61ADA1F3979E2854367DF8672 /* RxSJPageViewControllerDataSourceType.swift */; };
 		40637C59FBEE175C6AB0049D8B9A893A /* NSView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEEBFA297D291FB29E7E4594160074 /* NSView+Rx.swift */; };
 		41059BF1305814040D958140885BA67C /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2DF495DD8635DAA2EBB0FF461C78C /* Dematerialize.swift */; };
-		411BCAB399E5A5CE0D69E97CD88CBB34 /* SJPageMenuItemViewDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 848669247EDE64836A11F31B5A191BAF /* SJPageMenuItemViewDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4161F73B355EAAFE807BB97CC6E1EF53 /* SJPageMenuBarScrollIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAC3DE92456DEA076D07B31F3E7E39A /* SJPageMenuBarScrollIndicator.m */; };
 		428269FAE739F3BF98900D0A8F653435 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED3C4E81E447894E3792AFB8889A8B /* Utils.swift */; };
 		42CCA88FE13995C4DE8CB024EEDF022A /* RxPickerViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D119FF78260CAFFEE01DB2D447EA29CB /* RxPickerViewDataSourceProxy.swift */; };
 		42EB75261A0B097221C1F9CD1D7A678A /* RxScrollViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9FC1C250254F16EC1F30DDD0DCE4A /* RxScrollViewDelegateProxy.swift */; };
 		442B5958255AE527E5B7C970BAEDE8EF /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53D4BAA079229F4EE2ED88C2560F631 /* RxCocoa.framework */; };
-		44ADC2312F1553FADAD274AB764FED5A /* SJPageMenuBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 377EC5D0E3CC686B87D85A235B8CCFEF /* SJPageMenuBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44C993040FEA90733E508AF6EA532068 /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D99CBF6EE369E7127056BB980BE1E /* WithLatestFrom.swift */; };
 		45226B1A93A96D3F9507E68235182D35 /* UITabBarItem+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991E9232FD34EAC054990A6CC348741 /* UITabBarItem+Rx.swift */; };
 		4661239C2C7E80B9402BF2929E72F17A /* UIImageView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32120B16343C1DD16832325F5AE8FCE /* UIImageView+Rx.swift */; };
@@ -107,11 +106,12 @@
 		4C50FFB02DF463A4BD17949982CF0D22 /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84DF443C314415D447CFE43F86C83B9 /* CurrentThreadScheduler.swift */; };
 		4C78F20AA6B3F3F7473A0B3AC1427221 /* UITextView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928C6385EBF01205EAA91E32C6D4F0EC /* UITextView+Rx.swift */; };
 		4CBAA45CD211A419D06884AEC71BE970 /* GroupedObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47AC913CC4973C0C4E04324D154892 /* GroupedObservable.swift */; };
-		4CF15BD26D781AF8B964BDAA2BC7B0A0 /* SJPageMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B89E79E987844703082B373E6E593D /* SJPageMenuItemView.m */; };
+		4D3943BC647BE278C76D8CC45D25FA60 /* SJPageCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2CB7DC3F621C11CCBB7D39FB30F71F /* SJPageCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8A8BDDEB10E850FAAA616624119FB1 /* _RXKVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C719AF3FA6643C27E38032B15F255B /* _RXKVOObserver.m */; };
 		4DA2D5C7E199E906560C8F2722B266A2 /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6AFD89D96531FC4107DCB713AD9521 /* DelegateProxy.swift */; };
 		4DC489C63B9ED39DAD1E717C7E86CE1A /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751893F3D3BF4F87DE45936B87FC46A4 /* NSObject+Rx.swift */; };
 		51816565977EFCDEF7B6FFEE273FBF55 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E5C9D5458A288BE96160B39A3DECC /* Concat.swift */; };
+		51A0E35B7200C932F509E9DD6561428E /* RxSJPageViewControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0402BC929762633A1E659879BB066C02 /* RxSJPageViewControllerDelegateProxy.swift */; };
 		51E2C769ABE2EDA0CBC808CE34749AE9 /* UIAlertAction+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166289EF9745DF40ADFDBD89D4EE048B /* UIAlertAction+Rx.swift */; };
 		5298A1B4830A0D3D095E2516A1F6073F /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531396AF5718275047AEC158AAF41BC0 /* Timer.swift */; };
 		52F2944AD742274E3DA5416900F2F83D /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D1F1BA878EBDD583A549EA2491F574 /* ToArray.swift */; };
@@ -125,14 +125,12 @@
 		582F8B0530ED8FB8AD23B5AE87DF3452 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5CD16051A6E8F77ACC2B5EC182F497 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		587A03ADDA6D202D17B1CEC79411253F /* NSObject+Rx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AEC4D2B643BD12646A893E31B47991 /* NSObject+Rx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5896D2CB29E5127FB72CF2352E0FE8AC /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = 459945ED6DD42EB8CF9E9C31163CA638 /* _RX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58A0C7F82294E8AD817A7B655E95820D /* SJPageMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6DC3C67EE8D6B622F4F28FC13A7E1 /* SJPageMenuBar.m */; };
 		58DFA666FF2F8EF67310B2CC54C494FC /* ItemPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510FCF260D0B87DD258D7F16F4ABED /* ItemPath.swift */; };
 		597D7E6072334B26EA2F9247571480EE /* NotificationCenter+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874722215F9CBA91C8EAA90E163F4011 /* NotificationCenter+Rx.swift */; };
 		59E2B3FE2DBF8022E4917C6E289EE7D6 /* RxCollectionViewSectionedAnimatedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30D1DD4117BF727A46C45B2E262E30 /* RxCollectionViewSectionedAnimatedDataSource.swift */; };
 		5A24303A43AF37F36DA83FA19FABD5AE /* RxCollectionViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DAE996859D13800C300FBE46B7891 /* RxCollectionViewDataSourceType.swift */; };
 		5A3DE218D6E885E57C9A590945F16BBA /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86799D105760C01A2339C8D983C3ED /* Sequence.swift */; };
 		5ACC6666577C6030D1ACB28ACA7705C5 /* AsMaybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24CF3135B6579E258D958C3345B5A72 /* AsMaybe.swift */; };
-		5B06D9F2D687F85E547498FFB5179861 /* RxSJPageViewControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AB4CD6FD0802424C3119B3CC458B7 /* RxSJPageViewControllerDelegateProxy.swift */; };
 		5BDD020FB0E6424E082E4D8F198C16FB /* Pods-Example-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54E9A251968F8BF102DA9BFC40597 /* Pods-Example-ExampleUITests-dummy.m */; };
 		5BF844F6EFDADC9DD318C6642CFF6FFD /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA845F15343DC28DAECEF273CB36DB /* Array+Extensions.swift */; };
 		5C515FBE23BA13F6E7E07F1CD207783E /* RxTabBarControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF40AAC6F7F4CB8C514D9D1E4BDBCAD /* RxTabBarControllerDelegateProxy.swift */; };
@@ -141,30 +139,30 @@
 		5CE778A56A3258199A72FE150FABC522 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FE29A5AB386E031E266BB833AD9D9 /* Generate.swift */; };
 		5D2BBE25C49FBF50F08E01857605C9E9 /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198F8E13DC6A088ED0EE0EEDAEF31DB /* CombineLatest+arity.swift */; };
 		5D666D5BF5178D08EC3A5C4746BDD0BD /* _RXKVOObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AE03B1D00559731EBB096B137C5D1C /* _RXKVOObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DAAB7BEE98D358B10CA00A77EC1A3A7 /* SJPageViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37054D87E283B484F4C76D303D73A492 /* SJPageViewController+Rx.swift */; };
+		5DB386CCCD588F53C4F884F9D436666D /* SJPageViewControllerSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E91473F52464CAD5F8544456B0EFB7 /* SJPageViewControllerSectionedDataSource.swift */; };
 		5DE62F80E33EED9F1729C0360DE39BE1 /* ObservableConvertibleType+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7663893261514FC7ECF3D3C3FA260734 /* ObservableConvertibleType+Signal.swift */; };
 		5E59914AFEEE23E635C195F01E82D692 /* SectionModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5C11F9A2994292118767B281325AE /* SectionModelType.swift */; };
 		5EA5D59F87123DB454316CA84C8A568F /* ItemEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510D0B680E1C1986766E0B15A805A86 /* ItemEvents.swift */; };
 		5F913FF66A8F54DCBCC28C3AE1366450 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A39779E0D9F20420627DCCD657BA8 /* TextInput.swift */; };
 		5FA253F841BF970DE0F404BAA436E526 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCAB0532CA39B2CCC0B0CD220426E57 /* Debounce.swift */; };
 		5FAE40FE684583E5269FE01B44C28512 /* NSImageView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D9E9E2CF71A96DE1302C7CD578BB2 /* NSImageView+Rx.swift */; };
-		602C9579075A64A41B1C0EAA8A36115B /* SJPageViewControllerSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2717D24A1090214941A3F9A2E4F8AB3 /* SJPageViewControllerSectionedDataSource.swift */; };
 		60368091C9ED574C0A41F6D8B9EF5238 /* Enumerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F258BC3A458D8E5C35568D9644F88 /* Enumerated.swift */; };
 		60A7D2485B546C4C5337EE68CA9505C9 /* SubscriptionDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0E300A097A94B5E8CF74F535E6D9B /* SubscriptionDisposable.swift */; };
 		61A5E8ED9D4E9FDE85F2E65C779DDCA6 /* DelaySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CBB99469E1773D957D7A92C9674E86 /* DelaySubscription.swift */; };
 		628EAE1FF6BB496D758FB30BC9117B1F /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8F98BFD765A4644C3A8F23B026361 /* ConcurrentDispatchQueueScheduler.swift */; };
 		6399CE9ADE1625470ACB712501AFC16F /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918685771A923116A15EC30A395428FA /* Scan.swift */; };
-		64B5B737F9B13708EC68FD9AAD3C1AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
 		653AA3FFB7DBCD6CBDC733B874A0CFF3 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC6EF41CA1C862C0497DD7C9B5411F /* Create.swift */; };
 		659271A5F0E23EC62F274FAF2540E8ED /* WKWebView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF36D50A5862B46401C286C8B92554 /* WKWebView+Rx.swift */; };
-		661766DE5ACE9C1898E6F67C19BCC703 /* UIScrollView+SJPageViewControllerExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = C79632B4CB843A04BE7BABB6DE167171 /* UIScrollView+SJPageViewControllerExtended.m */; };
 		66D22A7AD7ECB2945E2BF4308D9007D3 /* Maybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915009EC83356AF6D9293DAA3C4B57CB /* Maybe.swift */; };
-		6A5D34EF554EC575F1F401BD77A479E2 /* UIViewController+SJPageViewControllerExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 526C8478CAF825194503730E2A2D637E /* UIViewController+SJPageViewControllerExtended.m */; };
+		671857952EB1E5EF6969D65E6FC7DEF5 /* SJPageMenuItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9B4422A57194D06058B02391E760E3 /* SJPageMenuItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C3A9A10920AD3694461D03A662731C /* SJPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFFDD920741D10AD65BAB2324614B49 /* SJPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68583467DF149B37049C3AAD3F5E6C2C /* SJPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE139E2A70637B8E492B36496ECBC89 /* SJPageViewController.m */; };
 		6A976A2B7F75BDAF4C015780D265CC91 /* CollectionViewSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E4306BD3C8DD15743CC21B5584627 /* CollectionViewSectionedDataSource.swift */; };
 		6AFF83F96D0DA0E42840E698713AA330 /* NSTextStorage+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB867B7194128D2B553C05463F7E989D /* NSTextStorage+Rx.swift */; };
 		6B618D8099888409BA82F9AC21D931C0 /* RxCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC8966A077607B5AB13719BE1EDDEB1 /* RxCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B83ABC30CA967387E0D5C3B8D33106F /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0710F59D1C0DFC940AA1FED4DB29AF1 /* TakeUntil.swift */; };
 		6C7E265AD1C826545C01D979445FE88E /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D2D7BE9F788F195B085C606C715EF7 /* ImmediateSchedulerType.swift */; };
+		6D77C1077F7E5682C7EAA1D59D42F7A2 /* SJPageViewControllerItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B03D6A6F55D1E425F635A40BAE078C /* SJPageViewControllerItemCell.m */; };
 		6DBF18301C659DB91ADFC080ADCAD9DE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B010818C8C70F23A8560DA240825F4AF /* RxSwift.framework */; };
 		6E96079B7E5B385D67D8822AFDED8F7B /* RxCollectionViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35BFE658DE5881B65442E962194AF0 /* RxCollectionViewDataSourceProxy.swift */; };
 		6EB1EA8C33FB98013990C951FAED4E2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
@@ -172,10 +170,10 @@
 		6F4E940269293C765F3DB6E5DFB38CCF /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5148502EC75D61BF67CAF067800AA5 /* Skip.swift */; };
 		6FAD00B4A78E07C3324BCDFB1AE1731E /* BehaviorRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022CF663D3BF238A87A4D4125CFDCEBB /* BehaviorRelay.swift */; };
 		6FF0A65A31F4EFE0DEA5CD4335CBBDC4 /* _RXDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E25D7CFE668401C663DE1CD140B4C /* _RXDelegateProxy.m */; };
+		714097756A2C55529C0F5A638B471360 /* UIScrollView+SJPageViewControllerExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = C79632B4CB843A04BE7BABB6DE167171 /* UIScrollView+SJPageViewControllerExtended.m */; };
 		7374FB2BCCA4E9B1EB0452DE5968F29A /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7983337F9F5591F12A5319DD2C9F94B /* CompositeDisposable.swift */; };
 		7382E6CE1D7E41DB01E8C519BFB58AB8 /* Date+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0CB46D88AEBC7095CA48E7C8544A26 /* Date+Dispatch.swift */; };
 		74C92A7D4EED2D09214C47D53BEF9196 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557DDC5E76E20D83FA1582F42441A13 /* ObserverType.swift */; };
-		75625204D0825E4EB2B8029C1479B23B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
 		7900C9262B767711A6B109EAED52EF8A /* UI+SectionedViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD9530609EDC878E619F1967CB903B /* UI+SectionedViewType.swift */; };
 		795C51A233CA0A3DB742EFF7DD3B88B0 /* KeyPathBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E67A2A84C94ED6DEDAB68C6F3E9EAC /* KeyPathBinder.swift */; };
 		79898941102415891E619F8C8DAF9033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
@@ -187,38 +185,39 @@
 		7BF95B41CAFB9CD9CDD6072B5A4E9F72 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B36544436CBF81568371CDFB7458A /* RecursiveLock.swift */; };
 		7BFA6EFCC11D031F4E49EC3377FB209F /* RxSearchBarDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957181EC80A52684A52D3B4AC2A0B54E /* RxSearchBarDelegateProxy.swift */; };
 		7E08D9256983E974350EFFA3B1F6BD03 /* RxTableViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10204C16901804B6AD4CAECC4296835 /* RxTableViewDataSourceType.swift */; };
+		7EE92387867F8B45439ACC3C6DC9FC53 /* SJPageMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6DC3C67EE8D6B622F4F28FC13A7E1 /* SJPageMenuBar.m */; };
 		802162301EF4656C293D51DFFCA6E9F6 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933375546A7D72D24FEEE8238334A1F7 /* SynchronizedUnsubscribeType.swift */; };
+		8083A7AF1747E3FF1778E907347E4441 /* SJPageMenuBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE74C793A486BDD4AB0C9109F0EB699 /* SJPageMenuBar+Extension.swift */; };
 		8174D88F36337D4EE056D8A2FA6E00F1 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275BB0C36B027FD2C9A8165CD1F95138 /* Single.swift */; };
 		81C64081AD1FC08412AF4AD7C024699F /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = E324413496880E0724DE3AE2DFB8A237 /* Just.swift */; };
 		81FF0A726A82D907EF4B668DF2A9A3F9 /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23488D2FC1E3F840A11EC88CB10E97F8 /* TakeLast.swift */; };
 		8265D6E0F089604304FE513FD09B8C7C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF6745618DCE374DDFD61E56904CA0 /* Filter.swift */; };
 		830A2D2565F9AF0C2F1D2F8450F8C29C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
 		833AF78782D347999B10CB68FF99CBB7 /* UIPageControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83E1EAA332E65EC8855155CB577E34 /* UIPageControl+Rx.swift */; };
-		83E8DC682F92145F1B28BF2223CD516E /* SJPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EC1044D1A6802CB3B5FB9155A9147B /* SJPageViewController.framework */; };
 		858E37CC76F270574099732C18BF422D /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EB78424847F496DB65FF6E3DECEF9 /* PriorityQueue.swift */; };
 		85C1774F115FC9520111677B3A178BC8 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9557F6FE84AD6458CDF65C65D1FC861B /* Platform.Darwin.swift */; };
 		861685609955B745374F2821359657FE /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732FEF5A0CAF56FF3DC198C9E877976E /* InfiniteSequence.swift */; };
 		86DD279E85690B291C4F0B019A54100D /* UITabBar+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A622F2684F050EFC5C34B70A03ED2 /* UITabBar+Rx.swift */; };
+		87887B5F4BD1CF78A82029DDF006E530 /* ObservableType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772001F197CA1F653E32BEE0C2E95464 /* ObservableType+Extension.swift */; };
 		87AC25E063EBE8CD17661BC96092C7A3 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DDBF7DFF89C69B5CE5709E21C83019 /* Driver.swift */; };
 		87E8C6E0DA3CA00812A94A9489E1CD19 /* UITableView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E3D5F0AC6C9D094F1FA68971AF259 /* UITableView+Rx.swift */; };
 		87F0ECE151CB6AE9523F3BC7965CF157 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BCC61A703CA17B3393F4BDE0E0C61 /* Repeat.swift */; };
+		881CB1A662607722AC57CBC05D217845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
 		884400AC33C8CE8491D5ADCF9D7F5C6B /* UIRefreshControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C54608E82E59CF1318FD7FE2C5C6F /* UIRefreshControl+Rx.swift */; };
 		891EDDDB488A4BE9CDC4179596CEA355 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB07AD6B0DE2A43D0925ADBC3B65B78C /* NSObject+Rx.swift */; };
 		89513FE89C72A675DA0065DEBF57AF90 /* ControlEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B515D8CE014228270AE56AF7AF0F9F /* ControlEvent.swift */; };
 		895445D4241B92402B6FDA2448282DB4 /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F47D7456C21C311D57CAE8F52D1EB /* StartWith.swift */; };
-		89F61333FDB10BF979A142E4A4AE3A16 /* SJPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3663EFA1C0229ED09A81FAE440FF4392 /* SJPageViewController-dummy.m */; };
 		8A2A4D3CC4ED108527599045903D302D /* Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC23D1C63DA29CCE80FA6D1285525F /* Zip+arity.swift */; };
 		8A84598EC8E805279970FC0DDCD1DE63 /* SwitchIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16480020588A2F2CFDB0BF48AAA239EA /* SwitchIfEmpty.swift */; };
 		8C4C50E09D5AD5785FC42CE4BDC062CF /* UITextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080BE6CFE31DDCD7442B2CAA95E6033F /* UITextField+Rx.swift */; };
 		8D8A52D3AD918E73793C298DE56D8241 /* BehaviorRelay+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8F34C68F1883DAB6900AD1F34AA58 /* BehaviorRelay+Driver.swift */; };
 		8DADE0CBB27D65072EA73A546C987D78 /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB1CA118FAB71CA9ACBFB6641725D4 /* AsyncSubject.swift */; };
 		8E208DCC160C04117F78B17D8A9B54BF /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3141D5B1790F445C1112CC6A613B0FFD /* DispatchQueueConfiguration.swift */; };
-		8E63855BCE219C034A1FC32DFBE4FBDA /* SJPageMenuItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9B4422A57194D06058B02391E760E3 /* SJPageMenuItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E7BF6C6A58434D7038EBB6327CF9197 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A13EAC7555B1363690346A79A3D6E /* Do.swift */; };
 		8ED46FC391F85311BE63E20FE2BDDFD8 /* RxTableViewReactiveArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A8AC3879C1B8516546D6F8F733DE7 /* RxTableViewReactiveArrayDataSource.swift */; };
 		8FA6416A8AC2E9B021DC2053D0AB2959 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E36F2DBA7903AD928FEBE57BBF671 /* Take.swift */; };
+		91C3EB3FF3FB2AB506710F4E391D3ACF /* SJPageViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894009C920409E61CE897DDA4E398DC6 /* SJPageViewController+Extension.swift */; };
 		91D7529B63725C7C878C68DFCCB9BBE8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE689A9B7F5393D6841C9A8CD3FC7AF /* Map.swift */; };
-		924C7A30B995B5F9A9086863B2497A3A /* SJPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3305744F7A7F2CB31F38620B6C8B2A1 /* SJPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93073CADF0BF479955E678D12622D797 /* KVORepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167201C3F63C4316C3AD5A115F57B667 /* KVORepresentable.swift */; };
 		930AA751C9CD8F188E09C95FA83EF1F4 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B15797E66E1C2EC3CB74E9F7625BC /* Reactive.swift */; };
 		93144E2F26D0D130C64C10E4A5226D87 /* UIView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BA8D624ADC60F11B585DC6EE2B7AC /* UIView+Rx.swift */; };
@@ -226,24 +225,26 @@
 		93BFE4F58A2B641F563C42F953F62BB7 /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501DA85F4339AF68AE379C3D476B5BBC /* ConnectableObservableType.swift */; };
 		93EB4F30176D841E439DE4060F7440AE /* UISwitch+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FBB0500BFFE07A654E3D70E1CF6F62 /* UISwitch+Rx.swift */; };
 		95E5AA5F7C9CA156C334D08328EF72D4 /* RxCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC84CDD2D373F8AF0E801685D682CEF /* RxCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95EF1F0475FCED6743B4059884E452E2 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC65EE03F1BB5C31BE40C39512CA1EE /* RxDataSources.framework */; };
 		961017B61FC2941FC843B0298C16F839 /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345F81F66693D6B151D47292D191712 /* VirtualTimeScheduler.swift */; };
 		9636342CD114C73DB5EF5C4A8588DA21 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E361399EE1D1D6D0E7F33A8E3130C0 /* SerialDispatchQueueScheduler.swift */; };
 		96A2515C082B4BB9E7AE4B23FDBEF6D7 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F671016B769149146D95119A7AFD032B /* RxRelay.framework */; };
-		96A6B92FCC1378B525D9903531B30C13 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFEBD0D141317D0DE0632DA0DE05D56 /* Defines.swift */; };
+		97625EADFADA37C3F695ABE7B3FF90DF /* RxSJPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BEFD0A64DAD34A5CDD56F1489E9C4A /* RxSJPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97B9E2C0F5555998B83589CCBC6D64F8 /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8300702393BE351259838A8F87295F1A /* ScheduledDisposable.swift */; };
 		98D78C6C0EA50F5B7A0BFCBF1B6461BE /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E48FA6E70085C792EF1DB6E1062E58 /* CompactMap.swift */; };
 		98D8A87BC2D179CA63779EBAA92403EF /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814C31C823B783D67C3A187B74C4BD68 /* Delay.swift */; };
+		993B50816471ECF01611FD5F25C1A3FA /* RxSJPageViewControllerReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D90CA0174390B19EE3EAB0FE87DED /* RxSJPageViewControllerReloadDataSource.swift */; };
 		99B0873C843210D02437FFCD12D17202 /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E637A325FA38C681A144B28C9FA24 /* DisposeBase.swift */; };
+		9A12206C7C39D0052638F8AC738C1CAB /* UIScrollView+SJPageViewControllerExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC2A01F386F13644C2254EE00D1E766 /* UIScrollView+SJPageViewControllerExtended.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A25B99F388EDA4068936753AE9DDF1A /* Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DC70EF51D281C39C66B8E4CB6D1474 /* Materialize.swift */; };
+		9B811C212ED4CAB53CBD689EE0438756 /* SJPageViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC78B522E301417D327E56446E1BE1 /* SJPageViewController+Rx.swift */; };
 		9BA516758B53E04BA64BF6627141CABD /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D588F6D202A6E25C6A8E9150A77BFC /* Error.swift */; };
 		9C930F3409A25964A55CDFA099C78430 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73680C5D336E4E60B73F560F88712BC5 /* DistinctUntilChanged.swift */; };
+		9D20A6446BFBC10250B50D56D7B99A4D /* SJPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3663EFA1C0229ED09A81FAE440FF4392 /* SJPageViewController-dummy.m */; };
 		9D348D3D6A4F4A24BEA306C909A2522C /* HistoricalScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2073EC7CB2B04928D937EAA8326EBF03 /* HistoricalScheduler.swift */; };
 		9D3BA5EC010A318D9EA0542D0493F4E3 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E157575637C5D9D2979764E3DAEB6B7 /* Observable.swift */; };
 		9D6C155FC1992413E6140010D47C2CCC /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9F2BEC36189543F31877E1181147F /* RecursiveLock.swift */; };
 		9D9267EF0E83FA0316E2D9DE16F37FBA /* UISlider+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77439D1C903CD9ACCEB5428F79A050 /* UISlider+Rx.swift */; };
 		9E5420C95A4C8123896BC7A87B699D2F /* NSLayoutConstraint+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DA935BD3CE1AD65DF57D3D38E71AB /* NSLayoutConstraint+Rx.swift */; };
-		9EB494E23DE905B78410704A53AB478A /* SJPageCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2CB7DC3F621C11CCBB7D39FB30F71F /* SJPageCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F706D15C30862703B6B87804D27E3B2 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA1679C121692E2F5CDF5D6FAA3965 /* RetryWhen.swift */; };
 		A01F94FA55382101CD9640945CA6DAF2 /* ObservableConvertibleType+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA630810D1859CA75074903B93107AC /* ObservableConvertibleType+Driver.swift */; };
 		A06D9D3700F9F6B62251338B18FC0D69 /* RxTableViewSectionedAnimatedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA12E1C8D1FD7E980256DCBDD5F6378 /* RxTableViewSectionedAnimatedDataSource.swift */; };
@@ -251,25 +252,27 @@
 		A167F02DF6F528A9D7DDC32A48762FDA /* UIBarButtonItem+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EA7B8D9705B498FE66B7DC907B8ED /* UIBarButtonItem+Rx.swift */; };
 		A21326A21F273013509ED8F5237126A5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE75FA3F7D3E78460FCCA397006DC /* Event.swift */; };
 		A233011F804DB3A9FA5064D9D18E2845 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD38548B3DFCDBA7D14BD576AD5CA76 /* BehaviorSubject.swift */; };
+		A3F345FB3EF49345BA7B6D25F397844E /* RxSJPageViewControllerDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B990027AFCD3C01176A88FEACFDFAB /* RxSJPageViewControllerDataSourceProxy.swift */; };
 		A53D14C1711166163FAF34731EDBDDC6 /* RxTextStorageDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319A09E2AC4602D8C401337A74877567 /* RxTextStorageDelegateProxy.swift */; };
 		A59498398A091C6D5094973DC40DA716 /* UINavigationController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472D6721DF341AF5BCC4889E2E62529 /* UINavigationController+Rx.swift */; };
+		A64EBD6BFC3F22C018BBFBE9DFDD84B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
 		A6C32F6E0770D3DB02AEE1CC46E8FDBA /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C72553DC1491DC59A5C1251039BD64 /* Bag.swift */; };
-		A6E4EE48CFE1F5A217F93773CAE05AE0 /* RxSJPageViewControllerDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CEE5CA7DC90500DBC57B9CC60C143 /* RxSJPageViewControllerDataSourceProxy.swift */; };
-		A8787516C6354B972ACEAECAC6494FC5 /* UIViewController+SJPageViewControllerExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E45B77B842A9F8B5E5D8279D58A107 /* UIViewController+SJPageViewControllerExtended.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8E2863427F28961E6D064E333C27766 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08F79EFB36F37A7491412849B7BBC7 /* DisposeBag.swift */; };
 		A8E5B402EADF836A205684302056EA69 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC304678515E59621D0D045B64A20C /* LockOwnerType.swift */; };
+		A8F3E419D8914F6735541F8ED3359D07 /* SJPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81AC6185D762ABE292DA46498F37BC /* SJPageCollectionView.m */; };
 		A9AB0DE656275CC09C95923533DB2368 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4895EDB7A8E29FDE1309EA6035E794 /* ScheduledItemType.swift */; };
 		AA2A3AFE20102E2D00F933E38E01F65A /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68E68D51D693FB125032B9B00B3F386 /* Differentiator.framework */; };
 		ABD387B40338D6ED148C46C4668D501E /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2D79CA40570A331A01CFB4717CD671 /* AtomicInt.swift */; };
 		ACEFF7D6E84B03B88A4FD06E6C16D717 /* RxCollectionViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCC06CB04A7857F0034B929B1A1D40 /* RxCollectionViewDelegateProxy.swift */; };
+		AD607DEDE250FAB8698251308D2CF86D /* SJPageMenuBarScrollIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 096129AEF7C20ABC3B53B3C0944DB7CA /* SJPageMenuBarScrollIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD959274B3529AF249EB9FA6396FCAA6 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB760D78ECC364AA11CCF9AC1B7A23 /* PriorityQueue.swift */; };
 		ADA9B2BB7C751B07C3225734135DDD66 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52114DFAA1C261F6E5FACBD88AA037E2 /* Platform.Linux.swift */; };
 		ADE3B6BD49292E0D4384B23127D67CED /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B57F2143EEBD75B1849E94FD8ABF0C5 /* ObservableType.swift */; };
+		AE908D3CCBFB1507C5383B2B5F2CC8D6 /* SJPageMenuItemViewDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 848669247EDE64836A11F31B5A191BAF /* SJPageMenuItemViewDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE16A8DC3F3E4FF4FAF618C1E412752 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DFA8F514F695831A075CA8FB59848B /* Multicast.swift */; };
 		AEFB74CC1B3ACA85667B0171F7B2E29E /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9504BF7ED0E17EA5FDCF0AEB8FE68A /* _RXObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF189158CC44FB7C8959171F09BEB9CB /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2DB92793C9EBF8A3802D4543AE7E1 /* Sample.swift */; };
 		AF90A24F472EF8E17D2FEE296066F111 /* RxTextViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C459A55BEFED12E06EF76C77D50FEB0 /* RxTextViewDelegateProxy.swift */; };
-		B09B5CF820EE03E037FF7C9FEED1511D /* SJPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE139E2A70637B8E492B36496ECBC89 /* SJPageViewController.m */; };
 		B0A4BC65D0524BE5AC03B9A2A776DF40 /* RxCocoaObjCRuntimeError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7286BFD98EDFC5903A0970C9DE0FA41 /* RxCocoaObjCRuntimeError+Extensions.swift */; };
 		B0B88EEE3945C6FD83D7A94517CB073B /* SharedSequence+Operators+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C15377DD95F80F75CDD995FE46B71BD /* SharedSequence+Operators+arity.swift */; };
 		B177C0223667841E1EB55E93D2BA7429 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DA40F7EF7483501DEEFF06A612D5 /* Rx.swift */; };
@@ -279,11 +282,9 @@
 		B236A01FDB5B1A957F7046EB500FD09D /* HistoricalSchedulerTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E190467247A2D4B3CD9F7E85D71D42CB /* HistoricalSchedulerTimeConverter.swift */; };
 		B244CF9DD9A08F8F6AC2951836D6F870 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50921778F9DF20A702E2D062F2BD14D1 /* Queue.swift */; };
 		B2485B4F447497F907B9E7BEE43CDAB5 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E298380D7A69DCFC58AC0D1553528C2 /* Switch.swift */; };
-		B41EE5C74FCD11CD9EE5B6A69EAA1B45 /* UIScrollView+SJPageViewControllerExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC2A01F386F13644C2254EE00D1E766 /* UIScrollView+SJPageViewControllerExtended.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E3675D0D7A2C1089AFF67A9794D9FB /* SJPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3305744F7A7F2CB31F38620B6C8B2A1 /* SJPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B447ABCF0B22EEC866BC02A92315005A /* TableViewSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E57AA0DAB8510E4A41E96B26970F4FA /* TableViewSectionedDataSource.swift */; };
 		B4562B1D18CE91DD3E9E9489E1A751A7 /* _RXDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DC98851CA309FB39B588ABC268274FA4 /* _RXDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6B08D4E96714BA593793F5B38397414 /* SJPageViewControllerItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9E3DF813397327BEE301642C137C64 /* SJPageViewControllerItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6B56BC94D288AFF9DFD5C8C03B1E1EA /* SJPageMenuBarScrollIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 096129AEF7C20ABC3B53B3C0944DB7CA /* SJPageMenuBarScrollIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8ABBD523F345EBF79AB6CDC37F88C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
 		B8B969F3549DB3F46528E30C1FD320F7 /* Pods-Example-ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2008F8A1CC62875424F7404BAF8D613C /* Pods-Example-ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B94726BEDEFF1D994FBC4C1657B8069B /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D6E1C706CDC9D26CC7FA12FE4CB78 /* _RXObjCRuntime.m */; };
@@ -291,7 +292,6 @@
 		BAD9B07CCBAF137C42A7209C246C704E /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CBA521E4A6A380F5C43A6255A932F /* CombineLatest+Collection.swift */; };
 		BB0E8F1CB241D68A4A7EC3AD202B2990 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F506B5AA7DCA5294720868C64E132 /* Deprecated.swift */; };
 		BD015EEDF3A51EE65B73A48D41AAEA82 /* UILabel+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9BCD040A8BE153B9B163ED2D2D6DE /* UILabel+Rx.swift */; };
-		BE5F026668E56B6DA3D77D115FE869D7 /* ObservableType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25023E8BD1DCD9480370C0A41E28FBF /* ObservableType+Extension.swift */; };
 		BF1CA6F3A0D0EFC617357361263FAA41 /* RxTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF8816AA2A640DBBF725377A5945379 /* RxTarget.swift */; };
 		BF239F7AF2EF6F87FE090AB38B7FFC0B /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B0573D1767AAFDAA54D800B171F5D4 /* AnonymousObserver.swift */; };
 		BF2B5D42E5C3070F53B31DAD57C8B327 /* NSTextView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F188DA614EB29AE73061AF01C7558 /* NSTextView+Rx.swift */; };
@@ -302,6 +302,7 @@
 		C26345BF7506D17AC1E098787D6FCAAD /* RxDataSources-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4854DEE1570BED1DB3DA36DC2969148A /* RxDataSources-dummy.m */; };
 		C28483AFDDF2B9FF421B2B1EC0C059D9 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B68D427C80001E2470095228989E4FA /* Bag.swift */; };
 		C2AE134C801CEAFFF8EB38EA2B13108B /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713BA83B85B51F88129205AFCA2215BF /* SchedulerServices+Emulation.swift */; };
+		C33F246792F5617A36A33DFF7DFB37F8 /* SJPageMenuBar+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5406A4C95B65DDA67320377F7F60A0E5 /* SJPageMenuBar+Rx.swift */; };
 		C436376C7FECF95C33F87A526BB63605 /* RxNavigationControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D01DBA0BAB93FE1C675E3D2C40B460 /* RxNavigationControllerDelegateProxy.swift */; };
 		C5D08AD707EEA2A637673B0E04030EE0 /* RxDataSources-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0403AC709E88DEF3D679A9B9585A86 /* RxDataSources-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6EE4B997687BA492CF90C8602E89092 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E001897DF846E27DE88E2F7347F9D38 /* Zip.swift */; };
@@ -313,10 +314,11 @@
 		CB280F675A5A00EBD559800853DD3F80 /* Differentiator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91557284053C1BF219DD9E768BF76A47 /* Differentiator-dummy.m */; };
 		CBB7BE2C6778D82DC89C4541F8798D02 /* UIPickerView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEF34711C004C4ABBB60FC0FB4D7BF /* UIPickerView+Rx.swift */; };
 		CC3CAA4B999108CAE98E6C44454C554A /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF87A2046367BC82B432AB0B8914010 /* BinaryDisposable.swift */; };
+		CDC42A1481EECFECE2F9A82633AD2C28 /* SJPageMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B89E79E987844703082B373E6E593D /* SJPageMenuItemView.m */; };
 		CDD37B91ADD38E0361A0B962449BF3AF /* RxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5611241F9F5E0CFDF2B6353FE8809B6 /* RxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE2D62530FD191688AE9CC0F5641878E /* RxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30DB422B972ACC6C46C2C4F49E04DA /* RxSwift-dummy.m */; };
+		CE95F81000CE0CB736C173164B1EB874 /* RxSJPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DA1545AE7D8702CC94F351A75A0B5C /* RxSJPageViewController-dummy.m */; };
 		CF4908A4FA402510DF1116BB06D24AB6 /* PublishRelay+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01DBDE74B191F2F6D58C6C2D5B9BE9C /* PublishRelay+Signal.swift */; };
-		CFE141EC5840131DB91DF71752198DA8 /* RxSJPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5A4087D7769CBD36005DA786BFF59 /* RxSJPageViewController-dummy.m */; };
 		D0E689E6FDD8A3C77B06DB4ECCE5C39D /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D15678F395C0304D552F3E5FA10A308 /* SchedulerType.swift */; };
 		D1F5C3B6F3DB95E031EF87EF3BAA219E /* RxTableViewSectionedReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8224E9FC6ED804B2A6CCE25F0E621B /* RxTableViewSectionedReloadDataSource.swift */; };
 		D207C4339DB468B945C59F4EE74B02EC /* UIDatePicker+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74014F9DDD6523A3483720D6C26A682E /* UIDatePicker+Rx.swift */; };
@@ -343,7 +345,6 @@
 		DF8A644DDF8E1DBC8A57213E95B5B567 /* RxCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CC973546313756CB0EDC2B82F37DD /* RxCocoa-dummy.m */; };
 		DF9055F470FCFA346BCB4875FAC111DA /* AnimationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5AACD0463BAF52F83133441EC8F02 /* AnimationConfiguration.swift */; };
 		E00C90EC225B6C54293C2FC163925EE9 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B9ADDF574487DEA480D62E6B9B9F0 /* _RX.m */; };
-		E0245C2D991960D88221C1171B64A750 /* SJPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81AC6185D762ABE292DA46498F37BC /* SJPageCollectionView.m */; };
 		E1F296E79429FE6EE0E793AEE2A7C3A6 /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7929D5D534F25D38D523457C18066B /* MainScheduler.swift */; };
 		E27B8FF809CC7CD78412C4BD8199479E /* GroupBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99FBBD438A3B6DD8EB12D3126DC1512 /* GroupBy.swift */; };
 		E33D4363EDD137902C538922847CA3DF /* Observable+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A430BC673268AA8E23B0A57AA598A00 /* Observable+Bind.swift */; };
@@ -351,6 +352,7 @@
 		E50CF81F7FE37CE911F3AF15AB1D4EEA /* RxTabBarDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D772C63F521C2CC214069E21CA4CEA /* RxTabBarDelegateProxy.swift */; };
 		E5701038C59C0A398453EBB3F4A7A4E1 /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89605932C9E55476385B7AB2DEB79685 /* ConcurrentMainScheduler.swift */; };
 		E6633AA2A3A6FC307228277134A4640C /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E929FFFE00A91A8BE67A909E34C71DDD /* CombineLatest.swift */; };
+		E6868BAC55AC91B1A99C4A850F9EE5AE /* SJPageViewControllerItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9E3DF813397327BEE301642C137C64 /* SJPageViewControllerItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FC6B657FAFE526214A86627D1447C2 /* SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB3650315C52BDCF0A3FA1BB7E4E608 /* SharedSequence.swift */; };
 		E705567E9C436F85F87156E97DB9CDFB /* ControlTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C91606AE3E9858905CE918CC838C9 /* ControlTarget.swift */; };
 		E7082CA403DB134897DE248F8DD03E48 /* NSObject+Rx+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD77849DDBB2F5C2B0FFA3245CFE5BE1 /* NSObject+Rx+RawRepresentable.swift */; };
@@ -359,12 +361,13 @@
 		E8AAF59142ACBFE22BA1C9A042F2DACC /* IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB13F64BEDECF23C39546F37B589369D /* IdentifiableType.swift */; };
 		E8B43143E93F1A5F4F4B606B9767134B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */; };
 		E8F7B6BF925830D1BBF1F2068115823C /* InvocableScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21D44AFCB57495E0F92E91B44085654 /* InvocableScheduledItem.swift */; };
+		E9ED3A987C6A3CB3F282A09128035720 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC65EE03F1BB5C31BE40C39512CA1EE /* RxDataSources.framework */; };
 		EAE55DAC64AFD8360EF27499966E3381 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798AA8634E09CE6AC9DD99B8B9C5118 /* Lock.swift */; };
 		EB36E34DDE2E565907250A19B2F40860 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B0D812AD44F8AD3EA2C5110C9CDE82 /* Deferred.swift */; };
 		ECE6E89C4FC5A457C19392FFC17A17BD /* AnimatableSectionModelType+ItemPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFFD1C45D7F57CF1A248988F872B145 /* AnimatableSectionModelType+ItemPath.swift */; };
 		ED487382C5B62A9F7709D35D59BAF278 /* RxPickerViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DFDD7E3DCBC04A04CA4185C606969 /* RxPickerViewDataSourceType.swift */; };
-		EE7B18436AFC67DCAE7CD771D5F61E8E /* RxSJPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D030791B02C7118B1D909A4341193F /* RxSJPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF842A69B0AD19279B531BACA38A5CFC /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482B983925CB0D95BED2F12836AD8F6 /* Cancelable.swift */; };
+		F029DE29FAF8C37EB022A3239DB59C2E /* SJPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EC1044D1A6802CB3B5FB9155A9147B /* SJPageViewController.framework */; };
 		F105313AB1A53C7168273476626D6661 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B010818C8C70F23A8560DA240825F4AF /* RxSwift.framework */; };
 		F196A52610A0352C8084859DBD32D2BA /* PrimitiveSequence+Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CBB233C3858DC08E9A9696EBE10EFF /* PrimitiveSequence+Zip+arity.swift */; };
 		F28D92F3BC9EEF00FAE5D82C41E89223 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D322F9DFAF166A9ABB667BF466321F3 /* Throttle.swift */; };
@@ -373,7 +376,7 @@
 		F2F9BFE8C2F398407C8D12E324E8B53D /* RxTableViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DCE95E64A20CA7ACB0228B81FFD55 /* RxTableViewDelegateProxy.swift */; };
 		F3B4721DBD21F7703FAF28BD37628EF2 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB81D3FE3DCD0EABEB37E296C86C3314 /* RecursiveScheduler.swift */; };
 		F3CB5AC6DFD5E100AA6E97AC81A1E6AA /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA053ACADF977A6EF4E694ABB10DCD6 /* RefCountDisposable.swift */; };
-		F5273CFECB959770DB8552AE49B3B1AC /* SJPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFFDD920741D10AD65BAB2324614B49 /* SJPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67F2941CA498CAC022D0EE27F7CA757 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20BDA83B781FA484CB6EC379726D19 /* Defines.swift */; };
 		F8A43E710351BA0D79DECD899BD3600E /* RxCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56FA2DD3C88841B0E756E93B9F9CCE /* RxCocoa.swift */; };
 		F9BC73B3051603ABAA7617C56391CF7F /* ViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABF29F20462E396D56BAD740EFEDFC5 /* ViewTransition.swift */; };
 		FA09EE8B2EB80BB507227E9C64C6AC21 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589D934D4723D8BFF50A61E94A3B02B /* Buffer.swift */; };
@@ -456,13 +459,6 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		535D02EA5B24722366252C3A36418026 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 401909D4FB2014BF539896BF0CCA48C2;
-			remoteInfo = RxDataSources;
-		};
 		5A852AACB4C20CEEAEFAA9D6AB8870A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -477,7 +473,21 @@
 			remoteGlobalIDString = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6;
 			remoteInfo = RxCocoa;
 		};
+		5DFA783E60EFCDCD9F86570DD4E82E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3641E7D50CD8349BED8FEB557895506B;
+			remoteInfo = SJPageViewController;
+		};
 		664DA3160AAA681641BE1A1283E2AACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
+			remoteInfo = RxSwift;
+		};
+		6F8C8A84C04255E31668FC9B288E12CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -490,13 +500,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6B0CF3139E15EA6C347A4287EC7A43F3;
 			remoteInfo = RxSJPageViewController;
-		};
-		8B2A089AC5EF72D9082216CC84011491 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
-			remoteInfo = RxSwift;
 		};
 		8DCC37D14A84548C8CD9F183ECB34375 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -518,6 +521,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6;
 			remoteInfo = RxCocoa;
+		};
+		9FFD04B13138DEC8605B37D78A85F0B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401909D4FB2014BF539896BF0CCA48C2;
+			remoteInfo = RxDataSources;
 		};
 		C0404344782C224A1051E7F14D583C3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -568,21 +578,16 @@
 			remoteGlobalIDString = 401909D4FB2014BF539896BF0CCA48C2;
 			remoteInfo = RxDataSources;
 		};
-		FE401B9CF3510580C6A0F1672E7FFCC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3641E7D50CD8349BED8FEB557895506B;
-			remoteInfo = SJPageViewController;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0051ACA49C2BCAD8F38CEFC566FF7816 /* RxSJPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSJPageViewController.release.xcconfig; sourceTree = "<group>"; };
 		00B0573D1767AAFDAA54D800B171F5D4 /* AnonymousObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousObserver.swift; path = RxSwift/Observers/AnonymousObserver.swift; sourceTree = "<group>"; };
 		022CF663D3BF238A87A4D4125CFDCEBB /* BehaviorRelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BehaviorRelay.swift; path = RxRelay/BehaviorRelay.swift; sourceTree = "<group>"; };
 		03B515D8CE014228270AE56AF7AF0F9F /* ControlEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlEvent.swift; path = RxCocoa/Traits/ControlEvent.swift; sourceTree = "<group>"; };
 		03D16D996E15719973A34D1DB16FAEC3 /* Differentiator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Differentiator.modulemap; sourceTree = "<group>"; };
 		03DD30B4D169359892A0DACD9747830F /* SJPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SJPageViewController.framework; path = SJPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0402BC929762633A1E659879BB066C02 /* RxSJPageViewControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		063F47D7456C21C311D57CAE8F52D1EB /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
 		064E36F2DBA7903AD928FEBE57BBF671 /* Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Take.swift; path = RxSwift/Observables/Take.swift; sourceTree = "<group>"; };
 		06DF40AC31BCDE82E11A89ACC5C33213 /* Pods-Example-ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example-ExampleUITests.modulemap"; sourceTree = "<group>"; };
@@ -592,7 +597,6 @@
 		096129AEF7C20ABC3B53B3C0944DB7CA /* SJPageMenuBarScrollIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPageMenuBarScrollIndicator.h; path = SJPageViewController/ObjC/PageMenuBar/Core/SJPageMenuBarScrollIndicator.h; sourceTree = "<group>"; };
 		097E25D7CFE668401C663DE1CD140B4C /* _RXDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RXDelegateProxy.m; path = RxCocoa/Runtime/_RXDelegateProxy.m; sourceTree = "<group>"; };
 		0A7929D5D534F25D38D523457C18066B /* MainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainScheduler.swift; path = RxSwift/Schedulers/MainScheduler.swift; sourceTree = "<group>"; };
-		0B0C35DFEA6654DFEF90A08182D61504 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0B2D79CA40570A331A01CFB4717CD671 /* AtomicInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Platform/AtomicInt.swift; sourceTree = "<group>"; };
 		0B68D427C80001E2470095228989E4FA /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		0B9F4E4A866BC0833B37DF36E0C5DC80 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
@@ -617,10 +621,10 @@
 		171A10329EE456344E2B9FDC460D6D6A /* UINavigationItem+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationItem+Rx.swift"; path = "RxCocoa/iOS/UINavigationItem+Rx.swift"; sourceTree = "<group>"; };
 		17C6A1BBD5510F9DF84FCAE918480C4B /* AnonymousDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousDisposable.swift; path = RxSwift/Disposables/AnonymousDisposable.swift; sourceTree = "<group>"; };
 		17D1542C64F4859F8217E1F06F0E32A2 /* NSObject+Rx.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "NSObject+Rx.modulemap"; sourceTree = "<group>"; };
+		1A7D90CA0174390B19EE3EAB0FE87DED /* RxSJPageViewControllerReloadDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerReloadDataSource.swift; sourceTree = "<group>"; };
 		1A9504BF7ED0E17EA5FDCF0AEB8FE68A /* _RXObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXObjCRuntime.h; path = RxCocoa/Runtime/include/_RXObjCRuntime.h; sourceTree = "<group>"; };
 		1AA20541127B0169AA6A83451DDD7C4E /* Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catch.swift; path = RxSwift/Observables/Catch.swift; sourceTree = "<group>"; };
 		1BB0FA648FF36836E21872B3B4F6F47A /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
-		1BFFAE5CDC429A4D6AF5C3C174785F5E /* RxSJPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSJPageViewController.modulemap; sourceTree = "<group>"; };
 		1D5EA7B8D9705B498FE66B7DC907B8ED /* UIBarButtonItem+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Rx.swift"; path = "RxCocoa/iOS/UIBarButtonItem+Rx.swift"; sourceTree = "<group>"; };
 		1EF87A2046367BC82B432AB0B8914010 /* BinaryDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDisposable.swift; path = RxSwift/Disposables/BinaryDisposable.swift; sourceTree = "<group>"; };
 		1F627B588EEEE265B930B7847292A2AE /* RxDataSources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxDataSources.debug.xcconfig; sourceTree = "<group>"; };
@@ -636,6 +640,7 @@
 		274EDBBE424BFFDE217597F4855E975A /* DelegateProxyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxyType.swift; path = RxCocoa/Common/DelegateProxyType.swift; sourceTree = "<group>"; };
 		275BB0C36B027FD2C9A8165CD1F95138 /* Single.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Single.swift; path = RxSwift/Traits/Single.swift; sourceTree = "<group>"; };
 		27B6DC3C67EE8D6B622F4F28FC13A7E1 /* SJPageMenuBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPageMenuBar.m; path = SJPageViewController/ObjC/PageMenuBar/SJPageMenuBar.m; sourceTree = "<group>"; };
+		27BEFD0A64DAD34A5CDD56F1489E9C4A /* RxSJPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSJPageViewController-umbrella.h"; sourceTree = "<group>"; };
 		27FA0DB3D0A98D40A8D4FB0B1642F499 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = RxSwift/Disposable.swift; sourceTree = "<group>"; };
 		29013F368294CDC91E77CC73F4ED45ED /* SJPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJPageViewController.release.xcconfig; sourceTree = "<group>"; };
 		2988F6FE137ACA4EFDFA7B37C8A7720E /* SJPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJPageViewController-prefix.pch"; sourceTree = "<group>"; };
@@ -645,21 +650,20 @@
 		2B57F2143EEBD75B1849E94FD8ABF0C5 /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
 		2CA7515BE43D4013DDC0C05E982039C0 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = RxSwift/Observables/Merge.swift; sourceTree = "<group>"; };
 		2CDE2A33667087ABE29C49B28F7DEDB2 /* ControlEvent+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ControlEvent+Signal.swift"; path = "RxCocoa/Traits/Signal/ControlEvent+Signal.swift"; sourceTree = "<group>"; };
-		2DC528F38BDCBF0B92D9E26ADD2F2150 /* SJPageViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SJPageViewController+Extension.swift"; sourceTree = "<group>"; };
 		2EA053ACADF977A6EF4E694ABB10DCD6 /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
 		2FCA045FEF78193C32D32AD15B68346F /* SubscribeOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscribeOn.swift; path = RxSwift/Observables/SubscribeOn.swift; sourceTree = "<group>"; };
+		3033B87745F2CDCD442CDB5BCCC61263 /* RxSJPageMenuBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageMenuBarDelegateProxy.swift; sourceTree = "<group>"; };
 		3141D5B1790F445C1112CC6A613B0FFD /* DispatchQueueConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueConfiguration.swift; path = RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift; sourceTree = "<group>"; };
 		319A09E2AC4602D8C401337A74877567 /* RxTextStorageDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTextStorageDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTextStorageDelegateProxy.swift; sourceTree = "<group>"; };
 		31D01DBA0BAB93FE1C675E3D2C40B460 /* RxNavigationControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxNavigationControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxNavigationControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		31D2DB92793C9EBF8A3802D4543AE7E1 /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = RxSwift/Observables/Sample.swift; sourceTree = "<group>"; };
-		326AB4CD6FD0802424C3119B3CC458B7 /* RxSJPageViewControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		32841294A3F94232D04F0D5D21E4FCA8 /* Amb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amb.swift; path = RxSwift/Observables/Amb.swift; sourceTree = "<group>"; };
 		32D772C63F521C2CC214069E21CA4CEA /* RxTabBarDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarDelegateProxy.swift; sourceTree = "<group>"; };
 		339CBA521E4A6A380F5C43A6255A932F /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+Collection.swift"; path = "RxSwift/Observables/CombineLatest+Collection.swift"; sourceTree = "<group>"; };
 		358863D0659F1BC583C90739FA04D8B7 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = Sources/Differentiator/Utilities.swift; sourceTree = "<group>"; };
 		36217E9B8041B060D8AFEAF54EB02F6A /* UIApplication+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Rx.swift"; path = "RxCocoa/iOS/UIApplication+Rx.swift"; sourceTree = "<group>"; };
 		3663EFA1C0229ED09A81FAE440FF4392 /* SJPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SJPageViewController-dummy.m"; sourceTree = "<group>"; };
-		37054D87E283B484F4C76D303D73A492 /* SJPageViewController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SJPageViewController+Rx.swift"; sourceTree = "<group>"; };
+		36E91473F52464CAD5F8544456B0EFB7 /* SJPageViewControllerSectionedDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SJPageViewControllerSectionedDataSource.swift; sourceTree = "<group>"; };
 		376E637A325FA38C681A144B28C9FA24 /* DisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBase.swift; path = RxSwift/Disposables/DisposeBase.swift; sourceTree = "<group>"; };
 		37767CDB6517932834F2615A3E40766A /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		377EC5D0E3CC686B87D85A235B8CCFEF /* SJPageMenuBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJPageMenuBar.h; path = SJPageViewController/ObjC/PageMenuBar/SJPageMenuBar.h; sourceTree = "<group>"; };
@@ -678,7 +682,6 @@
 		3E5B1C5EEF8C500B40F39A0C0B45C018 /* SectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionModel.swift; path = Sources/Differentiator/SectionModel.swift; sourceTree = "<group>"; };
 		3E5F1CE9573DEDBB8486885E5298F99F /* Optional+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Extensions.swift"; path = "Sources/Differentiator/Optional+Extensions.swift"; sourceTree = "<group>"; };
 		3EB25FA5DA9262CDCD9BEADAB5709727 /* UIProgressView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+Rx.swift"; path = "RxCocoa/iOS/UIProgressView+Rx.swift"; sourceTree = "<group>"; };
-		3EF5A4087D7769CBD36005DA786BFF59 /* RxSJPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSJPageViewController-dummy.m"; sourceTree = "<group>"; };
 		400D9E9E2CF71A96DE1302C7CD578BB2 /* NSImageView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+Rx.swift"; path = "RxCocoa/macOS/NSImageView+Rx.swift"; sourceTree = "<group>"; };
 		40D1F1BA878EBDD583A549EA2491F574 /* ToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToArray.swift; path = RxSwift/Observables/ToArray.swift; sourceTree = "<group>"; };
 		4113372274EEA3558E7D71C45B82FB01 /* SchedulerType+SharedSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerType+SharedSequence.swift"; path = "RxCocoa/Traits/SharedSequence/SchedulerType+SharedSequence.swift"; sourceTree = "<group>"; };
@@ -720,15 +723,16 @@
 		52114DFAA1C261F6E5FACBD88AA037E2 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		526C8478CAF825194503730E2A2D637E /* UIViewController+SJPageViewControllerExtended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SJPageViewControllerExtended.m"; path = "SJPageViewController/ObjC/PageViewController/Core/UIViewController+SJPageViewControllerExtended.m"; sourceTree = "<group>"; };
 		531396AF5718275047AEC158AAF41BC0 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = RxSwift/Observables/Timer.swift; sourceTree = "<group>"; };
-		532C1F4F6A836A6DA0F571B07785881F /* RxSJPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RxSJPageViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5406A4C95B65DDA67320377F7F60A0E5 /* SJPageMenuBar+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SJPageMenuBar+Rx.swift"; sourceTree = "<group>"; };
 		5557DDC5E76E20D83FA1582F42441A13 /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
+		55682207AAC972D5BBE57B0C272F50C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		55B9F2BEC36189543F31877E1181147F /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
-		57D030791B02C7118B1D909A4341193F /* RxSJPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSJPageViewController-umbrella.h"; sourceTree = "<group>"; };
 		58C6BC55441BAAE7FD78BEEC7F8C8632 /* Changeset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Changeset.swift; path = Sources/Differentiator/Changeset.swift; sourceTree = "<group>"; };
 		5910F3F445B564B9445B3B7CCB148846 /* RxDataSources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxDataSources.release.xcconfig; sourceTree = "<group>"; };
 		5C6ECB5AF8F8589FA272978C92B05500 /* UITabBarController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+Rx.swift"; path = "RxCocoa/iOS/UITabBarController+Rx.swift"; sourceTree = "<group>"; };
 		5C703A24847340B1F499352E82AE1D15 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = RxSwift/Errors.swift; sourceTree = "<group>"; };
 		5D8224E9FC6ED804B2A6CCE25F0E621B /* RxTableViewSectionedReloadDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewSectionedReloadDataSource.swift; path = Sources/RxDataSources/RxTableViewSectionedReloadDataSource.swift; sourceTree = "<group>"; };
+		5DD307E91A38318222BA62BA8E99693E /* RxSJPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSJPageViewController-prefix.pch"; sourceTree = "<group>"; };
 		5E001897DF846E27DE88E2F7347F9D38 /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = RxSwift/Observables/Zip.swift; sourceTree = "<group>"; };
 		5E57AA0DAB8510E4A41E96B26970F4FA /* TableViewSectionedDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewSectionedDataSource.swift; path = Sources/RxDataSources/TableViewSectionedDataSource.swift; sourceTree = "<group>"; };
 		5EBEF0988148F9F69250DE3B45CF8554 /* RxWKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxWKNavigationDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxWKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
@@ -739,7 +743,6 @@
 		630CABE8F692FCDBFD1B122A2D0CE388 /* Pods_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleTests.framework; path = "Pods-ExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		638EA0350334CD93F2B8476B5AFB769D /* RxTableViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		63E48FA6E70085C792EF1DB6E1062E58 /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = RxSwift/Observables/CompactMap.swift; sourceTree = "<group>"; };
-		64E0972BB10F687A100171CF14143B4F /* RxSJPageViewControllerReloadDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerReloadDataSource.swift; sourceTree = "<group>"; };
 		65054D976DC0CD626FCA2E2CEC8E1A25 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6558BBA006F311FAA4FEE5F42B7862D5 /* RxRelay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxRelay-dummy.m"; sourceTree = "<group>"; };
 		661D55C89AA571FC9E3C887837B45DA1 /* IntegerType+IdentifiableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IntegerType+IdentifiableType.swift"; path = "Sources/RxDataSources/IntegerType+IdentifiableType.swift"; sourceTree = "<group>"; };
@@ -754,11 +757,11 @@
 		6B5CBCD908C73EFCED61BD98460F05EF /* Pods-Example-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D15678F395C0304D552F3E5FA10A308 /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
 		6DC84CDD2D373F8AF0E801685D682CEF /* RxCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-umbrella.h"; sourceTree = "<group>"; };
-		6EFEBD0D141317D0DE0632DA0DE05D56 /* Defines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defines.swift; path = RxSJPageViewController/Source/Defines.swift; sourceTree = "<group>"; };
 		70B6F4AE278F7CD98AB4730C38ED52EE /* RxRelay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxRelay.debug.xcconfig; sourceTree = "<group>"; };
 		713BA83B85B51F88129205AFCA2215BF /* SchedulerServices+Emulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerServices+Emulation.swift"; path = "RxSwift/Schedulers/SchedulerServices+Emulation.swift"; sourceTree = "<group>"; };
 		71B03D6A6F55D1E425F635A40BAE078C /* SJPageViewControllerItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPageViewControllerItemCell.m; path = SJPageViewController/ObjC/PageViewController/Core/SJPageViewControllerItemCell.m; sourceTree = "<group>"; };
 		71DE6D5F05ED659ECAC617AAFB8F077D /* RxTableViewDataSourcePrefetchingProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourcePrefetchingProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourcePrefetchingProxy.swift; sourceTree = "<group>"; };
+		71EC159CDAE99D12B8F4461827B0254D /* RxSJPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSJPageViewController.debug.xcconfig; sourceTree = "<group>"; };
 		732FEF5A0CAF56FF3DC198C9E877976E /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
 		73680C5D336E4E60B73F560F88712BC5 /* DistinctUntilChanged.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistinctUntilChanged.swift; path = RxSwift/Observables/DistinctUntilChanged.swift; sourceTree = "<group>"; };
 		74014F9DDD6523A3483720D6C26A682E /* UIDatePicker+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDatePicker+Rx.swift"; path = "RxCocoa/iOS/UIDatePicker+Rx.swift"; sourceTree = "<group>"; };
@@ -767,6 +770,7 @@
 		75BD851602487D8D94B0D19822582862 /* RxDataSources.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxDataSources.modulemap; sourceTree = "<group>"; };
 		75C64B8F89D0D52E23776D482A578F8B /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
 		7663893261514FC7ECF3D3C3FA260734 /* ObservableConvertibleType+Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Signal.swift"; path = "RxCocoa/Traits/Signal/ObservableConvertibleType+Signal.swift"; sourceTree = "<group>"; };
+		772001F197CA1F653E32BEE0C2E95464 /* ObservableType+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extension.swift"; path = "RxSJPageViewController/Source/ObservableType+Extension.swift"; sourceTree = "<group>"; };
 		77F5F450C49C4AE18AA4554303A3805B /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		794FB71473531622B210277CA14C5735 /* Never.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Never.swift; path = RxSwift/Observables/Never.swift; sourceTree = "<group>"; };
 		7A4895EDB7A8E29FDE1309EA6035E794 /* ScheduledItemType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItemType.swift; path = RxSwift/Schedulers/Internal/ScheduledItemType.swift; sourceTree = "<group>"; };
@@ -776,7 +780,6 @@
 		7CFB1CA118FAB71CA9ACBFB6641725D4 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
 		7D322F9DFAF166A9ABB667BF466321F3 /* Throttle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttle.swift; path = RxSwift/Observables/Throttle.swift; sourceTree = "<group>"; };
 		7D77439D1C903CD9ACCEB5428F79A050 /* UISlider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Rx.swift"; path = "RxCocoa/iOS/UISlider+Rx.swift"; sourceTree = "<group>"; };
-		7EBC42A0620000556A9FCBF735665EF7 /* RxSJPageViewControllerDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceType.swift; sourceTree = "<group>"; };
 		807AAA357E6F0E9E42A8DF092A329B76 /* RxRelay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxRelay-umbrella.h"; sourceTree = "<group>"; };
 		8086FDA06451A7F89AE25501A176FB6A /* RxCollectionViewSectionedReloadDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewSectionedReloadDataSource.swift; path = Sources/RxDataSources/RxCollectionViewSectionedReloadDataSource.swift; sourceTree = "<group>"; };
 		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -795,6 +798,7 @@
 		86F8F34C68F1883DAB6900AD1F34AA58 /* BehaviorRelay+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BehaviorRelay+Driver.swift"; path = "RxCocoa/Traits/Driver/BehaviorRelay+Driver.swift"; sourceTree = "<group>"; };
 		874722215F9CBA91C8EAA90E163F4011 /* NotificationCenter+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+Rx.swift"; path = "RxCocoa/Foundation/NotificationCenter+Rx.swift"; sourceTree = "<group>"; };
 		8798AA8634E09CE6AC9DD99B8B9C5118 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = RxSwift/Concurrency/Lock.swift; sourceTree = "<group>"; };
+		894009C920409E61CE897DDA4E398DC6 /* SJPageViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SJPageViewController+Extension.swift"; sourceTree = "<group>"; };
 		89605932C9E55476385B7AB2DEB79685 /* ConcurrentMainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentMainScheduler.swift; path = RxSwift/Schedulers/ConcurrentMainScheduler.swift; sourceTree = "<group>"; };
 		89D2D7BE9F788F195B085C606C715EF7 /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmediateSchedulerType.swift; path = RxSwift/ImmediateSchedulerType.swift; sourceTree = "<group>"; };
 		8AAFFFF03FE7D0FCEA61724821452BED /* Pods-ExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-Info.plist"; sourceTree = "<group>"; };
@@ -810,7 +814,6 @@
 		8E298380D7A69DCFC58AC0D1553528C2 /* Switch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switch.swift; path = RxSwift/Observables/Switch.swift; sourceTree = "<group>"; };
 		8F44706E4B57CF36D06A180BB27F867C /* Pods-ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleTests.modulemap"; sourceTree = "<group>"; };
 		90FC23D1C63DA29CCE80FA6D1285525F /* Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+arity.swift"; path = "RxSwift/Observables/Zip+arity.swift"; sourceTree = "<group>"; };
-		913DB891D749BEDFB29BB38981BD97CA /* RxSJPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSJPageViewController.release.xcconfig; sourceTree = "<group>"; };
 		915009EC83356AF6D9293DAA3C4B57CB /* Maybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maybe.swift; path = RxSwift/Traits/Maybe.swift; sourceTree = "<group>"; };
 		91557284053C1BF219DD9E768BF76A47 /* Differentiator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Differentiator-dummy.m"; sourceTree = "<group>"; };
 		91680E33C0E788DF98DB67FF8C40BC1B /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extensions.swift"; path = "RxSwift/ObservableType+Extensions.swift"; sourceTree = "<group>"; };
@@ -833,6 +836,7 @@
 		9B56FA2DD3C88841B0E756E93B9F9CCE /* RxCocoa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCocoa.swift; path = RxCocoa/RxCocoa.swift; sourceTree = "<group>"; };
 		9CFFD1C45D7F57CF1A248988F872B145 /* AnimatableSectionModelType+ItemPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnimatableSectionModelType+ItemPath.swift"; path = "Sources/Differentiator/AnimatableSectionModelType+ItemPath.swift"; sourceTree = "<group>"; };
 		9D5CD16051A6E8F77ACC2B5EC182F497 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		9D6140645B359C4F9331A0B9D5B72686 /* RxSJPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSJPageViewController-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E157575637C5D9D2979764E3DAEB6B7 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
 		9E5F3B5F90CAF8CDF3463857D3ACC219 /* RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.debug.xcconfig; sourceTree = "<group>"; };
@@ -842,7 +846,6 @@
 		A11C8F942483D26DCFDFA643BBBA6039 /* RxSearchControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxSearchControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxSearchControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		A14F188DA614EB29AE73061AF01C7558 /* NSTextView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextView+Rx.swift"; path = "RxCocoa/macOS/NSTextView+Rx.swift"; sourceTree = "<group>"; };
 		A3305744F7A7F2CB31F38620B6C8B2A1 /* SJPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJPageViewController-umbrella.h"; sourceTree = "<group>"; };
-		A3B6A00387003929383834FACFA4F4FD /* RxSJPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSJPageViewController.debug.xcconfig; sourceTree = "<group>"; };
 		A404E1E14877D97113E5E8BC4153FC2A /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
 		A482B983925CB0D95BED2F12836AD8F6 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
 		A4E0F907A63923C4154A172688E9888C /* NSObject_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSObject_Rx.framework; path = "NSObject+Rx.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -856,6 +859,8 @@
 		A80DAA4E2C96CCD8731EDDC051319833 /* SerialDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDisposable.swift; path = RxSwift/Disposables/SerialDisposable.swift; sourceTree = "<group>"; };
 		A89FD9D16731744B326938757EE72DC7 /* RxRelay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxRelay.modulemap; sourceTree = "<group>"; };
 		AABF29F20462E396D56BAD740EFEDFC5 /* ViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewTransition.swift; path = Sources/RxDataSources/ViewTransition.swift; sourceTree = "<group>"; };
+		AB0ECC96CD2985ED85EF7B26C2E6EB15 /* RxSJPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RxSJPageViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB20BDA83B781FA484CB6EC379726D19 /* Defines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defines.swift; path = RxSJPageViewController/Source/Defines.swift; sourceTree = "<group>"; };
 		AB29D0210429D53DC8A89C03A5CB6E9F /* Driver+Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Driver+Subscription.swift"; path = "RxCocoa/Traits/Driver/Driver+Subscription.swift"; sourceTree = "<group>"; };
 		AB7BCFC15A9D45BEB9B6C017ED55E752 /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = RxSwift/Observables/Empty.swift; sourceTree = "<group>"; };
 		AB867B7194128D2B553C05463F7E989D /* NSTextStorage+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextStorage+Rx.swift"; path = "RxCocoa/iOS/NSTextStorage+Rx.swift"; sourceTree = "<group>"; };
@@ -864,6 +869,7 @@
 		ACCAB0532CA39B2CCC0B0CD220426E57 /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
 		ADA12E1C8D1FD7E980256DCBDD5F6378 /* RxTableViewSectionedAnimatedDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewSectionedAnimatedDataSource.swift; path = Sources/RxDataSources/RxTableViewSectionedAnimatedDataSource.swift; sourceTree = "<group>"; };
 		AFA4C6773DB302F3CCCAD648589A9B6F /* PublishRelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublishRelay.swift; path = RxRelay/PublishRelay.swift; sourceTree = "<group>"; };
+		AFAC78B522E301417D327E56446E1BE1 /* SJPageViewController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SJPageViewController+Rx.swift"; path = "RxSJPageViewController/Source/SJPageViewController+Rx.swift"; sourceTree = "<group>"; };
 		AFB8F98BFD765A4644C3A8F23B026361 /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentDispatchQueueScheduler.swift; path = RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
 		B010818C8C70F23A8560DA240825F4AF /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0710F59D1C0DFC940AA1FED4DB29AF1 /* TakeUntil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeUntil.swift; path = RxSwift/Observables/TakeUntil.swift; sourceTree = "<group>"; };
@@ -878,6 +884,7 @@
 		B71B6BB48793D539C5E90B1AD20E040A /* NSSlider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSSlider+Rx.swift"; path = "RxCocoa/macOS/NSSlider+Rx.swift"; sourceTree = "<group>"; };
 		B7CBB99469E1773D957D7A92C9674E86 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
 		B7DFC8B0BE0DD64F9C670FA4C1FAE7C2 /* RxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSwift-Info.plist"; sourceTree = "<group>"; };
+		B9B990027AFCD3C01176A88FEACFDFAB /* RxSJPageViewControllerDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceProxy.swift; sourceTree = "<group>"; };
 		BB16098BB8548CBD323B1CD7525EB9D6 /* SubjectType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubjectType.swift; path = RxSwift/Subjects/SubjectType.swift; sourceTree = "<group>"; };
 		BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxCocoa.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED06ECF9A45B7F3B1ACB7DBD4D1B7EE /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
@@ -886,13 +893,11 @@
 		BF727AF3156F929F6900CC080D6EEC20 /* Using.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Using.swift; path = RxSwift/Observables/Using.swift; sourceTree = "<group>"; };
 		BFC65EE03F1BB5C31BE40C39512CA1EE /* RxDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01454B944A0FC5BCCADC4FEA9C74C5F /* Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeout.swift; path = RxSwift/Observables/Timeout.swift; sourceTree = "<group>"; };
-		C2717D24A1090214941A3F9A2E4F8AB3 /* SJPageViewControllerSectionedDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SJPageViewControllerSectionedDataSource.swift; sourceTree = "<group>"; };
 		C27A13EAC7555B1363690346A79A3D6E /* Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Do.swift; path = RxSwift/Observables/Do.swift; sourceTree = "<group>"; };
 		C31F1E1675F415866600B95FDF8ACF1F /* RxPickerViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewAdapter.swift; path = Sources/RxDataSources/RxPickerViewAdapter.swift; sourceTree = "<group>"; };
 		C32120B16343C1DD16832325F5AE8FCE /* UIImageView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Rx.swift"; path = "RxCocoa/iOS/UIImageView+Rx.swift"; sourceTree = "<group>"; };
 		C46ABAF1BB4B3B583BEE66C7B5753CFA /* UISegmentedControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISegmentedControl+Rx.swift"; path = "RxCocoa/iOS/UISegmentedControl+Rx.swift"; sourceTree = "<group>"; };
 		C54078A65F1E57154BA0DF9535462C54 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		C59ECC6A280B57E61545BCC40AA6BD83 /* RxSJPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSJPageViewController-prefix.pch"; sourceTree = "<group>"; };
 		C5BF36D50A5862B46401C286C8B92554 /* WKWebView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+Rx.swift"; path = "RxCocoa/iOS/WKWebView+Rx.swift"; sourceTree = "<group>"; };
 		C662257868E3AE20BC1338DF0A49F8A5 /* RxMutableBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxMutableBox.swift; path = RxSwift/RxMutableBox.swift; sourceTree = "<group>"; };
 		C79632B4CB843A04BE7BABB6DE167171 /* UIScrollView+SJPageViewControllerExtended.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SJPageViewControllerExtended.m"; path = "SJPageViewController/ObjC/PageViewController/Core/UIScrollView+SJPageViewControllerExtended.m"; sourceTree = "<group>"; };
@@ -901,7 +906,6 @@
 		C93024D08D03F5485C3CDA75808A7821 /* RxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-prefix.pch"; sourceTree = "<group>"; };
 		C97D6E1C706CDC9D26CC7FA12FE4CB78 /* _RXObjCRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RXObjCRuntime.m; path = RxCocoa/Runtime/_RXObjCRuntime.m; sourceTree = "<group>"; };
 		CA86459B834B286D472EF909A2AAD76D /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CB1CEE5CA7DC90500DBC57B9CC60C143 /* RxSJPageViewControllerDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceProxy.swift; sourceTree = "<group>"; };
 		CB5146599EFBDCD918188B7AA8ECBEFE /* Differentiator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Differentiator.debug.xcconfig; sourceTree = "<group>"; };
 		CBF40AAC6F7F4CB8C514D9D1E4BDBCAD /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		CC42B589933F98B283F9942C8D7400B4 /* RxCocoaRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RxCocoaRuntime.h; path = RxCocoa/Runtime/include/RxCocoaRuntime.h; sourceTree = "<group>"; };
@@ -915,7 +919,6 @@
 		D119FF78260CAFFEE01DB2D447EA29CB /* RxPickerViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		D21D44AFCB57495E0F92E91B44085654 /* InvocableScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableScheduledItem.swift; path = RxSwift/Schedulers/Internal/InvocableScheduledItem.swift; sourceTree = "<group>"; };
 		D24CF3135B6579E258D958C3345B5A72 /* AsMaybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsMaybe.swift; path = RxSwift/Observables/AsMaybe.swift; sourceTree = "<group>"; };
-		D25023E8BD1DCD9480370C0A41E28FBF /* ObservableType+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extension.swift"; path = "RxSJPageViewController/Source/ObservableType+Extension.swift"; sourceTree = "<group>"; };
 		D48BA8D624ADC60F11B585DC6EE2B7AC /* UIView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Rx.swift"; path = "RxCocoa/iOS/UIView+Rx.swift"; sourceTree = "<group>"; };
 		D49FE86A5FE7D68BC9DEC923F3008CCC /* NSObject+Rx-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Rx-prefix.pch"; sourceTree = "<group>"; };
 		D4B9AFE8D75FA4A8A99BFA32A062C76F /* Sink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sink.swift; path = RxSwift/Observables/Sink.swift; sourceTree = "<group>"; };
@@ -923,6 +926,7 @@
 		D518D68C1132542841EBF6DB0C0B2CAB /* SJPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SJPageViewController-Info.plist"; sourceTree = "<group>"; };
 		D51C3D0C53D23B97B032E3BDD4F82C82 /* Differentiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differentiator.framework; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D589D934D4723D8BFF50A61E94A3B02B /* Buffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buffer.swift; path = RxSwift/Observables/Buffer.swift; sourceTree = "<group>"; };
+		D5A733B546A2E599FF97C866F5C2D101 /* RxSJPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSJPageViewController.modulemap; sourceTree = "<group>"; };
 		D5D5AD326A64CAA526C83AB9BD5C7E39 /* RxPickerViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDelegateProxy.swift; sourceTree = "<group>"; };
 		D5ED3C4E81E447894E3792AFB8889A8B /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = RxRelay/Utils.swift; sourceTree = "<group>"; };
 		D5FAA6E41D5D23716A81F195A654A647 /* NSTextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextField+Rx.swift"; path = "RxCocoa/macOS/NSTextField+Rx.swift"; sourceTree = "<group>"; };
@@ -937,6 +941,7 @@
 		DA33DAA702FC0E51D6F38EB3FDDC74C2 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = RxSwift/SwiftSupport/SwiftSupport.swift; sourceTree = "<group>"; };
 		DA4BE75FA3F7D3E78460FCCA397006DC /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = RxSwift/Event.swift; sourceTree = "<group>"; };
 		DB07AD6B0DE2A43D0925ADBC3B65B78C /* NSObject+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Rx.swift"; sourceTree = "<group>"; };
+		DB23D5863374BE2881A6A2EEF105078A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DB3222115BE836D09E59C7E141DA885C /* RxRelay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxRelay-prefix.pch"; sourceTree = "<group>"; };
 		DB4A8AC3879C1B8516546D6F8F733DE7 /* RxTableViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		DB81AC6185D762ABE292DA46498F37BC /* SJPageCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJPageCollectionView.m; path = SJPageViewController/ObjC/PageViewController/Core/SJPageCollectionView.m; sourceTree = "<group>"; };
@@ -948,6 +953,7 @@
 		DDBBFB5E5A793058D70A87382E38EF99 /* ScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItem.swift; path = RxSwift/Schedulers/Internal/ScheduledItem.swift; sourceTree = "<group>"; };
 		DE08F79EFB36F37A7491412849B7BBC7 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = RxSwift/Disposables/DisposeBag.swift; sourceTree = "<group>"; };
 		DECEF34711C004C4ABBB60FC0FB4D7BF /* UIPickerView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPickerView+Rx.swift"; path = "RxCocoa/iOS/UIPickerView+Rx.swift"; sourceTree = "<group>"; };
+		DF6BB5D61ADA1F3979E2854367DF8672 /* RxSJPageViewControllerDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceType.swift; sourceTree = "<group>"; };
 		E0807C2FB2759F41F57B2FC6133A3E48 /* RxSJPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSJPageViewController.framework; path = RxSJPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15B7CA37111A9876666E65B7D8A86EB /* RxCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxCocoa.modulemap; sourceTree = "<group>"; };
 		E190467247A2D4B3CD9F7E85D71D42CB /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
@@ -985,6 +991,7 @@
 		F251728D8F1D936A68D1DA856EC66817 /* AnimatableSectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableSectionModel.swift; path = Sources/Differentiator/AnimatableSectionModel.swift; sourceTree = "<group>"; };
 		F358E8A0D62E442AB98D276CEFA15BA2 /* SkipWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipWhile.swift; path = RxSwift/Observables/SkipWhile.swift; sourceTree = "<group>"; };
 		F35F258BC3A458D8E5C35568D9644F88 /* Enumerated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enumerated.swift; path = RxSwift/Observables/Enumerated.swift; sourceTree = "<group>"; };
+		F3DA1545AE7D8702CC94F351A75A0B5C /* RxSJPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSJPageViewController-dummy.m"; sourceTree = "<group>"; };
 		F472D6721DF341AF5BCC4889E2E62529 /* UINavigationController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Rx.swift"; path = "RxCocoa/iOS/UINavigationController+Rx.swift"; sourceTree = "<group>"; };
 		F488EA7AB2A76346AEE336D49222288E /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = RxCocoa/Foundation/Logging.swift; sourceTree = "<group>"; };
 		F5306940BAC5CE3C8AA659F107ED4642 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableConvertibleType.swift; path = RxSwift/ObservableConvertibleType.swift; sourceTree = "<group>"; };
@@ -995,7 +1002,6 @@
 		F6433C57590A3B6C751DCCA751AD9044 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F65AB082145F9ED6CE30BDF4ED65B3D0 /* KVORepresentable+CoreGraphics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVORepresentable+CoreGraphics.swift"; path = "RxCocoa/Foundation/KVORepresentable+CoreGraphics.swift"; sourceTree = "<group>"; };
 		F671016B769149146D95119A7AFD032B /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6E1E240592C61DF564A6DD424FF02FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F7646046407DEFC64DDFC9E3B9870F5B /* UICollectionView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Rx.swift"; path = "RxCocoa/iOS/UICollectionView+Rx.swift"; sourceTree = "<group>"; };
 		F88E64F64753EDC65DC76C072FB020C8 /* RxCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxCocoa.debug.xcconfig; sourceTree = "<group>"; };
 		F8EC1044D1A6802CB3B5FB9155A9147B /* SJPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SJPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1005,7 +1011,6 @@
 		FA393096AB94989814203547A5B013D3 /* AnimatableSectionModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableSectionModelType.swift; path = Sources/Differentiator/AnimatableSectionModelType.swift; sourceTree = "<group>"; };
 		FA3BCC61A703CA17B3393F4BDE0E0C61 /* Repeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeat.swift; path = RxSwift/Observables/Repeat.swift; sourceTree = "<group>"; };
 		FB13F64BEDECF23C39546F37B589369D /* IdentifiableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentifiableType.swift; path = Sources/Differentiator/IdentifiableType.swift; sourceTree = "<group>"; };
-		FBC4ECFF63A3983A531E6284B3E1BE9E /* RxSJPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSJPageViewController-Info.plist"; sourceTree = "<group>"; };
 		FBC9BC8DBED31D21CD82D930870BF8A1 /* DataSources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSources.swift; path = Sources/RxDataSources/DataSources.swift; sourceTree = "<group>"; };
 		FC86799D105760C01A2339C8D983C3ED /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = RxSwift/Observables/Sequence.swift; sourceTree = "<group>"; };
 		FC8AB9E31ABB22527C739DBD14E2C18C /* Bag+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bag+Rx.swift"; path = "RxSwift/Extensions/Bag+Rx.swift"; sourceTree = "<group>"; };
@@ -1015,26 +1020,27 @@
 		FE701A3C3F479432B9ACCD94B36B4F83 /* Pods-Example-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF0E4306BD3C8DD15743CC21B5584627 /* CollectionViewSectionedDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewSectionedDataSource.swift; path = Sources/RxDataSources/CollectionViewSectionedDataSource.swift; sourceTree = "<group>"; };
 		FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxRelay.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE74C793A486BDD4AB0C9109F0EB699 /* SJPageMenuBar+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SJPageMenuBar+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		108AC2EE33134793A102E490288FFC87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881CB1A662607722AC57CBC05D217845 /* Foundation.framework in Frameworks */,
+				E9ED3A987C6A3CB3F282A09128035720 /* RxDataSources.framework in Frameworks */,
+				0C2C6F0F6B98D7656CF35A8C887CB342 /* RxSwift.framework in Frameworks */,
+				F029DE29FAF8C37EB022A3239DB59C2E /* SJPageViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1660C303DE00D75F0F059DA72C8DDDCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E8B43143E93F1A5F4F4B606B9767134B /* Foundation.framework in Frameworks */,
 				F105313AB1A53C7168273476626D6661 /* RxSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B445A41ED3F895C71E7AC55E69E17FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64B5B737F9B13708EC68FD9AAD3C1AC4 /* Foundation.framework in Frameworks */,
-				95EF1F0475FCED6743B4059884E452E2 /* RxDataSources.framework in Frameworks */,
-				32E9A269D356BE3704A52F2B83259F68 /* RxSwift.framework in Frameworks */,
-				83E8DC682F92145F1B28BF2223CD516E /* SJPageViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,14 +1070,6 @@
 				C160065F6B4A8E33B511D3FA1510EB27 /* Foundation.framework in Frameworks */,
 				96A2515C082B4BB9E7AE4B23FDBEF6D7 /* RxRelay.framework in Frameworks */,
 				0AA3AA11533ABE5FCBB6DC1B0F6830E5 /* RxSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		820BA46D444EF1E3E099287B396663B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75625204D0825E4EB2B8029C1479B23B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1116,6 +1114,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0A23DA54232A3F6DF58CB2235FD9F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64EBD6BFC3F22C018BBFBE9DFDD84B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1128,6 +1134,16 @@
 			);
 			name = "NSObject+Rx";
 			path = "NSObject+Rx";
+			sourceTree = "<group>";
+		};
+		19891BF67A8925ECCFFA1C09E9475F49 /* SJPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				36EDD89A5E1D9DA2CFB6E6FB5FAB32A5 /* DataSource */,
+				F8A0F33BB6710419C33CC5531ACC05C0 /* Delegate */,
+			);
+			name = SJPageViewController;
+			path = RxSJPageViewController/Source/SJPageViewController;
 			sourceTree = "<group>";
 		};
 		1E802D78FFD550ED55902AC1B545396F /* iOS */ = {
@@ -1151,21 +1167,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RxCocoa";
-			sourceTree = "<group>";
-		};
-		2541157AA3E2D2CF7C535F2B89C4596A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BFFAE5CDC429A4D6AF5C3C174785F5E /* RxSJPageViewController.modulemap */,
-				3EF5A4087D7769CBD36005DA786BFF59 /* RxSJPageViewController-dummy.m */,
-				FBC4ECFF63A3983A531E6284B3E1BE9E /* RxSJPageViewController-Info.plist */,
-				C59ECC6A280B57E61545BCC40AA6BD83 /* RxSJPageViewController-prefix.pch */,
-				57D030791B02C7118B1D909A4341193F /* RxSJPageViewController-umbrella.h */,
-				A3B6A00387003929383834FACFA4F4FD /* RxSJPageViewController.debug.xcconfig */,
-				913DB891D749BEDFB29BB38981BD97CA /* RxSJPageViewController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RxSJPageViewController";
 			sourceTree = "<group>";
 		};
 		26022EC4E8FB94E7F8D9DB4D47822E90 /* RxDataSources */ = {
@@ -1208,6 +1209,18 @@
 			path = "../Target Support Files/RxSwift";
 			sourceTree = "<group>";
 		};
+		36EDD89A5E1D9DA2CFB6E6FB5FAB32A5 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				B9B990027AFCD3C01176A88FEACFDFAB /* RxSJPageViewControllerDataSourceProxy.swift */,
+				DF6BB5D61ADA1F3979E2854367DF8672 /* RxSJPageViewControllerDataSourceType.swift */,
+				1A7D90CA0174390B19EE3EAB0FE87DED /* RxSJPageViewControllerReloadDataSource.swift */,
+				36E91473F52464CAD5F8544456B0EFB7 /* SJPageViewControllerSectionedDataSource.swift */,
+			);
+			name = DataSource;
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		37E8A2E8A3400ADC0901103DCD66DA8F /* Pods-Example-ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1241,14 +1254,14 @@
 			path = "Target Support Files/Pods-ExampleTests";
 			sourceTree = "<group>";
 		};
-		4636A3717C54C9EFFD8DAEBB8D98314A /* Pod */ = {
+		4A3062C1FBA8AB8FA51CC7FCED450792 /* SJPageMenuBar */ = {
 			isa = PBXGroup;
 			children = (
-				0B0C35DFEA6654DFEF90A08182D61504 /* LICENSE */,
-				F6E1E240592C61DF564A6DD424FF02FB /* README.md */,
-				532C1F4F6A836A6DA0F571B07785881F /* RxSJPageViewController.podspec */,
+				5406A4C95B65DDA67320377F7F60A0E5 /* SJPageMenuBar+Rx.swift */,
+				B921BC927F61BE57B0627AD13676A6C4 /* Delegate */,
 			);
-			name = Pod;
+			name = SJPageMenuBar;
+			path = RxSJPageViewController/Source/SJPageMenuBar;
 			sourceTree = "<group>";
 		};
 		4C01A045F35DEAFCA78BBAF9419B0587 /* PageMenuBar */ = {
@@ -1279,6 +1292,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		642E5EF87F67FCDBF9C57EE10375DB1A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB23D5863374BE2881A6A2EEF105078A /* LICENSE */,
+				55682207AAC972D5BBE57B0C272F50C8 /* README.md */,
+				AB0ECC96CD2985ED85EF7B26C2E6EB15 /* RxSJPageViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		67D09A7484C7504E2EB22BF578450E96 /* PageViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1304,17 +1327,6 @@
 			path = "../Target Support Files/NSObject+Rx";
 			sourceTree = "<group>";
 		};
-		6AACFC55E3E4FB7C6EC004536B261841 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				326AB4CD6FD0802424C3119B3CC458B7 /* RxSJPageViewControllerDelegateProxy.swift */,
-				2DC528F38BDCBF0B92D9E26ADD2F2150 /* SJPageViewController+Extension.swift */,
-				37054D87E283B484F4C76D303D73A492 /* SJPageViewController+Rx.swift */,
-			);
-			name = Delegate;
-			path = Delegate;
-			sourceTree = "<group>";
-		};
 		6CD78B1D54CF6FC21F6FE67F559CA07B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1337,6 +1349,21 @@
 				3B6075513810D4D46595EA1B8AA9E4A8 /* Pods-ExampleTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		769A5D7AEA040C95876DC2060717DF3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A733B546A2E599FF97C866F5C2D101 /* RxSJPageViewController.modulemap */,
+				F3DA1545AE7D8702CC94F351A75A0B5C /* RxSJPageViewController-dummy.m */,
+				9D6140645B359C4F9331A0B9D5B72686 /* RxSJPageViewController-Info.plist */,
+				5DD307E91A38318222BA62BA8E99693E /* RxSJPageViewController-prefix.pch */,
+				27BEFD0A64DAD34A5CDD56F1489E9C4A /* RxSJPageViewController-umbrella.h */,
+				71EC159CDAE99D12B8F4461827B0254D /* RxSJPageViewController.debug.xcconfig */,
+				0051ACA49C2BCAD8F38CEFC566FF7816 /* RxSJPageViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RxSJPageViewController";
 			sourceTree = "<group>";
 		};
 		7B012CB873D962B147DD0BA90BBF92BB /* Support Files */ = {
@@ -1667,34 +1694,29 @@
 			path = SJPageViewController;
 			sourceTree = "<group>";
 		};
-		B7BE50C6EBB08A22DD332E0C54975164 /* SJPageViewController */ = {
+		B921BC927F61BE57B0627AD13676A6C4 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				C2E939522687B3A7EA0B4D4C9FFE9384 /* DataSource */,
-				6AACFC55E3E4FB7C6EC004536B261841 /* Delegate */,
+				3033B87745F2CDCD442CDB5BCCC61263 /* RxSJPageMenuBarDelegateProxy.swift */,
+				FFE74C793A486BDD4AB0C9109F0EB699 /* SJPageMenuBar+Extension.swift */,
 			);
-			name = SJPageViewController;
-			path = RxSJPageViewController/Source/SJPageViewController;
+			name = Delegate;
+			path = Delegate;
 			sourceTree = "<group>";
 		};
-		C2E939522687B3A7EA0B4D4C9FFE9384 /* DataSource */ = {
+		CA25A5E2ED4CC70C08BCEDAFFEC151F5 /* RxSJPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CB1CEE5CA7DC90500DBC57B9CC60C143 /* RxSJPageViewControllerDataSourceProxy.swift */,
-				7EBC42A0620000556A9FCBF735665EF7 /* RxSJPageViewControllerDataSourceType.swift */,
-				64E0972BB10F687A100171CF14143B4F /* RxSJPageViewControllerReloadDataSource.swift */,
-				C2717D24A1090214941A3F9A2E4F8AB3 /* SJPageViewControllerSectionedDataSource.swift */,
+				AB20BDA83B781FA484CB6EC379726D19 /* Defines.swift */,
+				772001F197CA1F653E32BEE0C2E95464 /* ObservableType+Extension.swift */,
+				AFAC78B522E301417D327E56446E1BE1 /* SJPageViewController+Rx.swift */,
+				642E5EF87F67FCDBF9C57EE10375DB1A /* Pod */,
+				4A3062C1FBA8AB8FA51CC7FCED450792 /* SJPageMenuBar */,
+				19891BF67A8925ECCFFA1C09E9475F49 /* SJPageViewController */,
+				769A5D7AEA040C95876DC2060717DF3F /* Support Files */,
 			);
-			name = DataSource;
-			path = DataSource;
-			sourceTree = "<group>";
-		};
-		C4A198FF84E3B476DD6A7A6D0D876E38 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E0A44743CFC74F8A56ED079F7C3352B4 /* RxSJPageViewController */,
-			);
-			name = "Development Pods";
+			name = RxSJPageViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CB4B2514BB87146547E951BBC38BB4FD /* Differentiator */ = {
@@ -1722,7 +1744,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C4A198FF84E3B476DD6A7A6D0D876E38 /* Development Pods */,
+				FB174355D58FDD1AEBB3AC047B36DC41 /* Development Pods */,
 				6CD78B1D54CF6FC21F6FE67F559CA07B /* Frameworks */,
 				E912E22AFBCAE587F5511979E10C66DF /* Pods */,
 				582DECF963D12889F03B19C769A82F79 /* Products */,
@@ -1767,19 +1789,6 @@
 				67D09A7484C7504E2EB22BF578450E96 /* PageViewController */,
 			);
 			name = ObjC;
-			sourceTree = "<group>";
-		};
-		E0A44743CFC74F8A56ED079F7C3352B4 /* RxSJPageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				6EFEBD0D141317D0DE0632DA0DE05D56 /* Defines.swift */,
-				D25023E8BD1DCD9480370C0A41E28FBF /* ObservableType+Extension.swift */,
-				4636A3717C54C9EFFD8DAEBB8D98314A /* Pod */,
-				B7BE50C6EBB08A22DD332E0C54975164 /* SJPageViewController */,
-				2541157AA3E2D2CF7C535F2B89C4596A /* Support Files */,
-			);
-			name = RxSJPageViewController;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E2746B0DFD5F845FF81CA1BA4392E0CF /* Support Files */ = {
@@ -1841,6 +1850,24 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
+		F8A0F33BB6710419C33CC5531ACC05C0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0402BC929762633A1E659879BB066C02 /* RxSJPageViewControllerDelegateProxy.swift */,
+				894009C920409E61CE897DDA4E398DC6 /* SJPageViewController+Extension.swift */,
+			);
+			name = Delegate;
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FB174355D58FDD1AEBB3AC047B36DC41 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA25A5E2ED4CC70C08BCEDAFFEC151F5 /* RxSJPageViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		FB83EFEB17FAAF2CD30BB40EDA5E5DF0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1859,23 +1886,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1256E7A5BB0E2AC92B6EF7FE47B36720 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EB494E23DE905B78410704A53AB478A /* SJPageCollectionView.h in Headers */,
-				44ADC2312F1553FADAD274AB764FED5A /* SJPageMenuBar.h in Headers */,
-				B6B56BC94D288AFF9DFD5C8C03B1E1EA /* SJPageMenuBarScrollIndicator.h in Headers */,
-				8E63855BCE219C034A1FC32DFBE4FBDA /* SJPageMenuItemView.h in Headers */,
-				411BCAB399E5A5CE0D69E97CD88CBB34 /* SJPageMenuItemViewDefines.h in Headers */,
-				924C7A30B995B5F9A9086863B2497A3A /* SJPageViewController-umbrella.h in Headers */,
-				F5273CFECB959770DB8552AE49B3B1AC /* SJPageViewController.h in Headers */,
-				B6B08D4E96714BA593793F5B38397414 /* SJPageViewControllerItemCell.h in Headers */,
-				B41EE5C74FCD11CD9EE5B6A69EAA1B45 /* UIScrollView+SJPageViewControllerExtended.h in Headers */,
-				A8787516C6354B972ACEAECAC6494FC5 /* UIViewController+SJPageViewControllerExtended.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B5EC4BFE4608028A62377B0B253A3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1906,14 +1916,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		664BEA8AFFA1EECF7A5FA79267BB9185 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE7B18436AFC67DCAE7CD771D5F61E8E /* RxSJPageViewController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		722E475DE0CF9919A20939E5C73B50DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1938,6 +1940,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B36DD3EFBDF5B646B20EB21F15C105E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3943BC647BE278C76D8CC45D25FA60 /* SJPageCollectionView.h in Headers */,
+				2377DC3BFDAB12E2BA856B1290079A35 /* SJPageMenuBar.h in Headers */,
+				AD607DEDE250FAB8698251308D2CF86D /* SJPageMenuBarScrollIndicator.h in Headers */,
+				671857952EB1E5EF6969D65E6FC7DEF5 /* SJPageMenuItemView.h in Headers */,
+				AE908D3CCBFB1507C5383B2B5F2CC8D6 /* SJPageMenuItemViewDefines.h in Headers */,
+				B2E3675D0D7A2C1089AFF67A9794D9FB /* SJPageViewController-umbrella.h in Headers */,
+				67C3A9A10920AD3694461D03A662731C /* SJPageViewController.h in Headers */,
+				E6868BAC55AC91B1A99C4A850F9EE5AE /* SJPageViewControllerItemCell.h in Headers */,
+				9A12206C7C39D0052638F8AC738C1CAB /* UIScrollView+SJPageViewControllerExtended.h in Headers */,
+				3CBB77EAE746049B7CB4A68D845B4864 /* UIViewController+SJPageViewControllerExtended.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8EBB2B56D9D6806DA9B82A3038ECD05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1959,6 +1978,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B969F3549DB3F46528E30C1FD320F7 /* Pods-Example-ExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26BF79C3D192EEC3FB81D1C8437B954 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97625EADFADA37C3F695ABE7B3FF90DF /* RxSJPageViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2011,12 +2038,12 @@
 		};
 		3641E7D50CD8349BED8FEB557895506B /* SJPageViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA1FEA680315AAA87A66B6531FF6114 /* Build configuration list for PBXNativeTarget "SJPageViewController" */;
+			buildConfigurationList = 02A1E187B52D09C0B383F195A60E2BA0 /* Build configuration list for PBXNativeTarget "SJPageViewController" */;
 			buildPhases = (
-				1256E7A5BB0E2AC92B6EF7FE47B36720 /* Headers */,
-				0E43FD5126388B0201ED42E512A64D78 /* Sources */,
-				820BA46D444EF1E3E099287B396663B2 /* Frameworks */,
-				DF31C65C58BAE709235E734AD1A301B0 /* Resources */,
+				B36DD3EFBDF5B646B20EB21F15C105E5 /* Headers */,
+				084C13BDB488090DB50500726F323505 /* Sources */,
+				F0A23DA54232A3F6DF58CB2235FD9F6D /* Frameworks */,
+				9CC35E790EA13BC885A488ABC3E5A59E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2088,19 +2115,19 @@
 		};
 		6B0CF3139E15EA6C347A4287EC7A43F3 /* RxSJPageViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBE51EECFFDD943DA3B94CA5272DF054 /* Build configuration list for PBXNativeTarget "RxSJPageViewController" */;
+			buildConfigurationList = 2A958ECFCAC1FD4341A0534F3F883361 /* Build configuration list for PBXNativeTarget "RxSJPageViewController" */;
 			buildPhases = (
-				664BEA8AFFA1EECF7A5FA79267BB9185 /* Headers */,
-				DF126C57B19AE765E526CC37265FF404 /* Sources */,
-				4B445A41ED3F895C71E7AC55E69E17FF /* Frameworks */,
-				11BA32281078743447CA90C3B6EFC983 /* Resources */,
+				F26BF79C3D192EEC3FB81D1C8437B954 /* Headers */,
+				6302EA2FC7A4952610017018EA4F3ECA /* Sources */,
+				108AC2EE33134793A102E490288FFC87 /* Frameworks */,
+				49A52012E50F1C2F1BD8728D67593BBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E7E86B64F7A4DECC7F16C888842570A /* PBXTargetDependency */,
-				15EE806A7183F758054F9C330D14986E /* PBXTargetDependency */,
-				B202A7D252B12D61E5BA05E9D4B02F29 /* PBXTargetDependency */,
+				C38DC31A3E6802399310B412ADC20279 /* PBXTargetDependency */,
+				5889B1485B5CF3B847E9F12A854F82AF /* PBXTargetDependency */,
+				464DFB3F9F3317148868060E982CCBEC /* PBXTargetDependency */,
 			);
 			name = RxSJPageViewController;
 			productName = RxSJPageViewController;
@@ -2228,13 +2255,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		11BA32281078743447CA90C3B6EFC983 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2E56BAEC8FC1712ABED087B85C390643 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2263,7 +2283,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49A52012E50F1C2F1BD8728D67593BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90E457ACA56346E2708ED10123F690E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC35E790EA13BC885A488ABC3E5A59E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2278,13 +2312,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BC00823203B420C167C918D2A4264E81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF31C65C58BAE709235E734AD1A301B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2308,19 +2335,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E43FD5126388B0201ED42E512A64D78 /* Sources */ = {
+		084C13BDB488090DB50500726F323505 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0245C2D991960D88221C1171B64A750 /* SJPageCollectionView.m in Sources */,
-				58A0C7F82294E8AD817A7B655E95820D /* SJPageMenuBar.m in Sources */,
-				0AA40021DBC99319FCF146B7CE43FA2E /* SJPageMenuBarScrollIndicator.m in Sources */,
-				4CF15BD26D781AF8B964BDAA2BC7B0A0 /* SJPageMenuItemView.m in Sources */,
-				89F61333FDB10BF979A142E4A4AE3A16 /* SJPageViewController-dummy.m in Sources */,
-				B09B5CF820EE03E037FF7C9FEED1511D /* SJPageViewController.m in Sources */,
-				0B1F80F40443A99AFF454036F2704721 /* SJPageViewControllerItemCell.m in Sources */,
-				661766DE5ACE9C1898E6F67C19BCC703 /* UIScrollView+SJPageViewControllerExtended.m in Sources */,
-				6A5D34EF554EC575F1F401BD77A479E2 /* UIViewController+SJPageViewControllerExtended.m in Sources */,
+				A8F3E419D8914F6735541F8ED3359D07 /* SJPageCollectionView.m in Sources */,
+				7EE92387867F8B45439ACC3C6DC9FC53 /* SJPageMenuBar.m in Sources */,
+				4161F73B355EAAFE807BB97CC6E1EF53 /* SJPageMenuBarScrollIndicator.m in Sources */,
+				CDC42A1481EECFECE2F9A82633AD2C28 /* SJPageMenuItemView.m in Sources */,
+				9D20A6446BFBC10250B50D56D7B99A4D /* SJPageViewController-dummy.m in Sources */,
+				68583467DF149B37049C3AAD3F5E6C2C /* SJPageViewController.m in Sources */,
+				6D77C1077F7E5682C7EAA1D59D42F7A2 /* SJPageViewControllerItemCell.m in Sources */,
+				714097756A2C55529C0F5A638B471360 /* UIScrollView+SJPageViewControllerExtended.m in Sources */,
+				350F874744386B181DEA329D8364839B /* UIViewController+SJPageViewControllerExtended.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2390,6 +2417,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6302EA2FC7A4952610017018EA4F3ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67F2941CA498CAC022D0EE27F7CA757 /* Defines.swift in Sources */,
+				87887B5F4BD1CF78A82029DDF006E530 /* ObservableType+Extension.swift in Sources */,
+				3CBF696935D34A6D4A65881EE1586D46 /* RxSJPageMenuBarDelegateProxy.swift in Sources */,
+				CE95F81000CE0CB736C173164B1EB874 /* RxSJPageViewController-dummy.m in Sources */,
+				A3F345FB3EF49345BA7B6D25F397844E /* RxSJPageViewControllerDataSourceProxy.swift in Sources */,
+				3ED5CF5C566418FFC0A921D82506A1F3 /* RxSJPageViewControllerDataSourceType.swift in Sources */,
+				51A0E35B7200C932F509E9DD6561428E /* RxSJPageViewControllerDelegateProxy.swift in Sources */,
+				993B50816471ECF01611FD5F25C1A3FA /* RxSJPageViewControllerReloadDataSource.swift in Sources */,
+				8083A7AF1747E3FF1778E907347E4441 /* SJPageMenuBar+Extension.swift in Sources */,
+				C33F246792F5617A36A33DFF7DFB37F8 /* SJPageMenuBar+Rx.swift in Sources */,
+				91C3EB3FF3FB2AB506710F4E391D3ACF /* SJPageViewController+Extension.swift in Sources */,
+				9B811C212ED4CAB53CBD689EE0438756 /* SJPageViewController+Rx.swift in Sources */,
+				5DB386CCCD588F53C4F884F9D436666D /* SJPageViewControllerSectionedDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC22531CC9EEFC5EECF31B35E2E3FE9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2403,23 +2450,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D0B764A81C906B325AFAB91AB43C2F /* Pods-Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF126C57B19AE765E526CC37265FF404 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96A6B92FCC1378B525D9903531B30C13 /* Defines.swift in Sources */,
-				BE5F026668E56B6DA3D77D115FE869D7 /* ObservableType+Extension.swift in Sources */,
-				CFE141EC5840131DB91DF71752198DA8 /* RxSJPageViewController-dummy.m in Sources */,
-				A6E4EE48CFE1F5A217F93773CAE05AE0 /* RxSJPageViewControllerDataSourceProxy.swift in Sources */,
-				28A16E3200B19BBD47DFB3B7A4BC5DD0 /* RxSJPageViewControllerDataSourceType.swift in Sources */,
-				5B06D9F2D687F85E547498FFB5179861 /* RxSJPageViewControllerDelegateProxy.swift in Sources */,
-				1506487BB805053C544A85CA47A2C1C5 /* RxSJPageViewControllerReloadDataSource.swift in Sources */,
-				37C14EE87D57B6AE1C02F2BF00E5B6F2 /* SJPageViewController+Extension.swift in Sources */,
-				5DAAB7BEE98D358B10CA00A77EC1A3A7 /* SJPageViewController+Rx.swift in Sources */,
-				602C9579075A64A41B1C0EAA8A36115B /* SJPageViewControllerSectionedDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2741,17 +2771,17 @@
 			target = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */;
 			targetProxy = 9F7E3C1F6147FD577F332A5D4024431A /* PBXContainerItemProxy */;
 		};
-		15EE806A7183F758054F9C330D14986E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxSwift;
-			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
-			targetProxy = 8B2A089AC5EF72D9082216CC84011491 /* PBXContainerItemProxy */;
-		};
 		35E4002B7DCCDE35CF11619A502CD10A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxSwift;
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = 102344459E87E2678636E69698C2F99C /* PBXContainerItemProxy */;
+		};
+		464DFB3F9F3317148868060E982CCBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SJPageViewController;
+			target = 3641E7D50CD8349BED8FEB557895506B /* SJPageViewController */;
+			targetProxy = 5DFA783E60EFCDCD9F86570DD4E82E99 /* PBXContainerItemProxy */;
 		};
 		4C10175B1ADCA7F836C2680AEE2F32B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2776,6 +2806,12 @@
 			name = RxRelay;
 			target = 4622BFEF3DC16E8BD15EEFC30D4D0084 /* RxRelay */;
 			targetProxy = 07E45B0AFEEED2846D13571956E582B3 /* PBXContainerItemProxy */;
+		};
+		5889B1485B5CF3B847E9F12A854F82AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = 6F8C8A84C04255E31668FC9B288E12CC /* PBXContainerItemProxy */;
 		};
 		5F18979650D5FC31BCB16265656BEC4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2831,29 +2867,23 @@
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = 04142E1DB41EC92EB296F3E757BCE4B7 /* PBXContainerItemProxy */;
 		};
-		9E7E86B64F7A4DECC7F16C888842570A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RxDataSources;
-			target = 401909D4FB2014BF539896BF0CCA48C2 /* RxDataSources */;
-			targetProxy = 535D02EA5B24722366252C3A36418026 /* PBXContainerItemProxy */;
-		};
 		A912385C818E5910BBC624347947D85E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NSObject+Rx";
 			target = B8A8605EB5769E41DC25E1879868AF1C /* NSObject+Rx */;
 			targetProxy = EBA2A63F384F9E91BB31D2157AA43B10 /* PBXContainerItemProxy */;
 		};
-		B202A7D252B12D61E5BA05E9D4B02F29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SJPageViewController;
-			target = 3641E7D50CD8349BED8FEB557895506B /* SJPageViewController */;
-			targetProxy = FE401B9CF3510580C6A0F1672E7FFCC5 /* PBXContainerItemProxy */;
-		};
 		C2FE212AFBBD055E8B928E234F62B0D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxCocoa;
 			target = 7AD0C6DCDC9CEC8A3C7C10C7FEE07BE6 /* RxCocoa */;
 			targetProxy = D682ABC2019610923417E44833126B97 /* PBXContainerItemProxy */;
+		};
+		C38DC31A3E6802399310B412ADC20279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxDataSources;
+			target = 401909D4FB2014BF539896BF0CCA48C2 /* RxDataSources */;
+			targetProxy = 9FFD04B13138DEC8605B37D78A85F0B6 /* PBXContainerItemProxy */;
 		};
 		CCCA4B7752069A69459186957330D49D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2918,9 +2948,9 @@
 			};
 			name = Release;
 		};
-		0EB1558A5F7BE2AE8DE593C1841FB3CC /* Debug */ = {
+		177DFD788DB6C2B333299CC540A79DF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99D225F4E82D398DEFDC3E5EB0D9E961 /* SJPageViewController.debug.xcconfig */;
+			baseConfigurationReference = 71EC159CDAE99D12B8F4461827B0254D /* RxSJPageViewController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2931,63 +2961,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SJPageViewController/SJPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SJPageViewController/SJPageViewController-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSJPageViewController/RxSJPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SJPageViewController/SJPageViewController.modulemap";
-				PRODUCT_MODULE_NAME = SJPageViewController;
-				PRODUCT_NAME = SJPageViewController;
+				MODULEMAP_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = RxSJPageViewController;
+				PRODUCT_NAME = RxSJPageViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1E9A9BD41ABA776718EB21F9B47CE06C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29013F368294CDC91E77CC73F4ED45ED /* SJPageViewController.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SJPageViewController/SJPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SJPageViewController/SJPageViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SJPageViewController/SJPageViewController.modulemap";
-				PRODUCT_MODULE_NAME = SJPageViewController;
-				PRODUCT_NAME = SJPageViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		2516193683DB4B2876AC0C2804075BCA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3024,41 +3018,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		262023606C48B0623255C32299B309D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3B6A00387003929383834FACFA4F4FD /* RxSJPageViewController.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSJPageViewController/RxSJPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController.modulemap";
-				PRODUCT_MODULE_NAME = RxSJPageViewController;
-				PRODUCT_NAME = RxSJPageViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3557101903E16FBE5832767248802712 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3318,6 +3277,42 @@
 			};
 			name = Debug;
 		};
+		4D4B61DDB0A4E4E1577F664283A3F2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29013F368294CDC91E77CC73F4ED45ED /* SJPageViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJPageViewController/SJPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJPageViewController/SJPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SJPageViewController/SJPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = SJPageViewController;
+				PRODUCT_NAME = SJPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5C92149B41DD42444052F34701620719 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65054D976DC0CD626FCA2E2CEC8E1A25 /* Pods-ExampleTests.debug.xcconfig */;
@@ -3392,9 +3387,9 @@
 			};
 			name = Release;
 		};
-		8AAA474A8E6411069D433A98C35C64F5 /* Release */ = {
+		8A8ABC7D4C1A6E2C8EF148CE95678BEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 913DB891D749BEDFB29BB38981BD97CA /* RxSJPageViewController.release.xcconfig */;
+			baseConfigurationReference = 99D225F4E82D398DEFDC3E5EB0D9E961 /* SJPageViewController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3405,28 +3400,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RxSJPageViewController/RxSJPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SJPageViewController/SJPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJPageViewController/SJPageViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController.modulemap";
-				PRODUCT_MODULE_NAME = RxSJPageViewController;
-				PRODUCT_NAME = RxSJPageViewController;
+				MODULEMAP_FILE = "Target Support Files/SJPageViewController/SJPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = SJPageViewController;
+				PRODUCT_NAME = SJPageViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8AD4F9808ABE58CB6132FE9B43E1EDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3805,6 +3799,42 @@
 			};
 			name = Release;
 		};
+		FC8FCCC834737EF6BCA4E9C0AAEB2E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0051ACA49C2BCAD8F38CEFC566FF7816 /* RxSJPageViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxSJPageViewController/RxSJPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxSJPageViewController/RxSJPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = RxSJPageViewController;
+				PRODUCT_NAME = RxSJPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3813,6 +3843,15 @@
 			buildConfigurations = (
 				B7C018892F34B624FAF2D80F0FA4A349 /* Debug */,
 				43F5B10964F89E8EF610B73B7E261D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A1E187B52D09C0B383F195A60E2BA0 /* Build configuration list for PBXNativeTarget "SJPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8ABC7D4C1A6E2C8EF148CE95678BEB /* Debug */,
+				4D4B61DDB0A4E4E1577F664283A3F2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3853,11 +3892,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FA1FEA680315AAA87A66B6531FF6114 /* Build configuration list for PBXNativeTarget "SJPageViewController" */ = {
+		2A958ECFCAC1FD4341A0534F3F883361 /* Build configuration list for PBXNativeTarget "RxSJPageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EB1558A5F7BE2AE8DE593C1841FB3CC /* Debug */,
-				1E9A9BD41ABA776718EB21F9B47CE06C /* Release */,
+				177DFD788DB6C2B333299CC540A79DF7 /* Debug */,
+				FC8FCCC834737EF6BCA4E9C0AAEB2E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3885,15 +3924,6 @@
 			buildConfigurations = (
 				D30FDAC7B8FDA97708962AC2E5B13707 /* Debug */,
 				2516193683DB4B2876AC0C2804075BCA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBE51EECFFDD943DA3B94CA5272DF054 /* Build configuration list for PBXNativeTarget "RxSJPageViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				262023606C48B0623255C32299B309D4 /* Debug */,
-				8AAA474A8E6411069D433A98C35C64F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -19,6 +19,9 @@
 		02E42C5924878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42C5324878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift */; };
 		02E42C5B24878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42C5524878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift */; };
 		02E42C5C24878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E42C5624878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift */; };
+		02EC3B4424888277003698BB /* RxSJPageMenuBarDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC3B4324888277003698BB /* RxSJPageMenuBarDelegateProxy.swift */; };
+		02EC3B462488838B003698BB /* SJPageMenuBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC3B452488838B003698BB /* SJPageMenuBar+Extension.swift */; };
+		02EC3B48248883DB003698BB /* SJPageMenuBar+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EC3B47248883DB003698BB /* SJPageMenuBar+Rx.swift */; };
 		27F1A4DDF4A1478714D6C3DE /* Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F7C9AAC1E3F7B318D69F00 /* Pods_RxSJPageViewController_RxSJPageViewControllerTests.framework */; };
 		9DF8F1A0D635F9F2F5ABD602 /* Pods_RxSJPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5562B5ED18690B282E02409 /* Pods_RxSJPageViewController.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +52,9 @@
 		02E42C5324878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerReloadDataSource.swift; sourceTree = "<group>"; };
 		02E42C5524878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceType.swift; sourceTree = "<group>"; };
 		02E42C5624878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSJPageViewControllerDataSourceProxy.swift; sourceTree = "<group>"; };
+		02EC3B4324888277003698BB /* RxSJPageMenuBarDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSJPageMenuBarDelegateProxy.swift; sourceTree = "<group>"; };
+		02EC3B452488838B003698BB /* SJPageMenuBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SJPageMenuBar+Extension.swift"; sourceTree = "<group>"; };
+		02EC3B47248883DB003698BB /* SJPageMenuBar+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SJPageMenuBar+Rx.swift"; sourceTree = "<group>"; };
 		0BCF2119AF29D0D0BA848D0A /* Pods-RxSJPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSJPageViewController.release.xcconfig"; path = "Target Support Files/Pods-RxSJPageViewController/Pods-RxSJPageViewController.release.xcconfig"; sourceTree = "<group>"; };
 		0F926D39A6B464A5222EA147 /* Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSJPageViewController-RxSJPageViewControllerTests/Pods-RxSJPageViewController-RxSJPageViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		424B3716D03B7F3757E305A7 /* Pods-RxSJPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSJPageViewController.debug.xcconfig"; path = "Target Support Files/Pods-RxSJPageViewController/Pods-RxSJPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,9 +126,11 @@
 		026795D2248640B60065ACEE /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				02EC3B412488824D003698BB /* SJPageMenuBar */,
 				02E42C452487854900EAFC9D /* SJPageViewController */,
 				0267961524864B1C0065ACEE /* Defines.swift */,
 				0267961F24868F980065ACEE /* ObservableType+Extension.swift */,
+				02679613248644EB0065ACEE /* SJPageViewController+Rx.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -131,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				0267960F248641FA0065ACEE /* RxSJPageViewControllerDelegateProxy.swift */,
-				02679613248644EB0065ACEE /* SJPageViewController+Rx.swift */,
 				02679611248644500065ACEE /* SJPageViewController+Extension.swift */,
 			);
 			path = Delegate;
@@ -155,6 +162,24 @@
 				02E42C5224878DF200EAFC9D /* SJPageViewControllerSectionedDataSource.swift */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		02EC3B412488824D003698BB /* SJPageMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				02EC3B4224888257003698BB /* Delegate */,
+				02EC3B47248883DB003698BB /* SJPageMenuBar+Rx.swift */,
+			);
+			path = SJPageMenuBar;
+			sourceTree = "<group>";
+		};
+		02EC3B4224888257003698BB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				02EC3B4324888277003698BB /* RxSJPageMenuBarDelegateProxy.swift */,
+				02EC3B452488838B003698BB /* SJPageMenuBar+Extension.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		1BAFFE713AD00FBC763F82D2 /* Frameworks */ = {
@@ -355,13 +380,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				02E42C5824878DF200EAFC9D /* SJPageViewControllerSectionedDataSource.swift in Sources */,
+				02EC3B462488838B003698BB /* SJPageMenuBar+Extension.swift in Sources */,
 				02E42C5B24878DF200EAFC9D /* RxSJPageViewControllerDataSourceType.swift in Sources */,
 				02E42C5C24878DF200EAFC9D /* RxSJPageViewControllerDataSourceProxy.swift in Sources */,
 				02679612248644500065ACEE /* SJPageViewController+Extension.swift in Sources */,
 				0267962024868F980065ACEE /* ObservableType+Extension.swift in Sources */,
+				02EC3B48248883DB003698BB /* SJPageMenuBar+Rx.swift in Sources */,
 				02679614248644EB0065ACEE /* SJPageViewController+Rx.swift in Sources */,
 				02E42C5924878DF200EAFC9D /* RxSJPageViewControllerReloadDataSource.swift in Sources */,
 				0267961624864B1C0065ACEE /* Defines.swift in Sources */,
+				02EC3B4424888277003698BB /* RxSJPageMenuBarDelegateProxy.swift in Sources */,
 				02679610248641FA0065ACEE /* RxSJPageViewControllerDelegateProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
