@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RxSJPageViewController"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "RxSJPageViewController"
   s.homepage         = "https://github.com/moxcomic/RxSJPageViewController.git"
   s.license          = { :type => "MIT", :file => "LICENSE" }
