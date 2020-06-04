@@ -97,7 +97,8 @@ class ViewController: UIViewController {
             case "b", "c": return UITableViewController()
             default: return UITableViewController()
             }
-        }, configureHeaderView: { _, _ in
+        }, configureHeaderView: { [weak self] _, _ in
+            guard let self = self else { return nil }
             return (self.headerView, 44 + 44, SJPageViewControllerHeaderModePinnedToTop)
         })
         self.subject.asObserver().bind(to: self.pageViewController.rx.pages(dataSource: dataSource)).disposed(by: rx.disposeBag)
