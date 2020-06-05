@@ -1,4 +1,3 @@
-# RxSJPageViewController
 ## Before
 ```
 class ViewControllerUseDelegate: UIViewController, SJPageViewControllerDelegate, SJPageViewControllerDataSource, SJPageMenuBarDelegate {
@@ -93,8 +92,8 @@ class ViewController: UIViewController {
         let dataSource = RxSJPageViewControllerReloadDataSource<SectionModel<String, String>>(configureViewController: {
             (_, pageVC, index, element) in
             switch element.identity {
-            case "a": return UITableViewController()
-            case "b", "c": return UITableViewController()
+            case "AAAA": return UITableViewController()
+            case "BBBB", "CCCC": return UITableViewController()
             default: return UITableViewController()
             }
         }, configureHeaderView: { [weak self] _, _ in
