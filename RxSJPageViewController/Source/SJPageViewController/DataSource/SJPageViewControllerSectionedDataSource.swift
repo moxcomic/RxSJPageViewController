@@ -58,7 +58,7 @@ open class SJPageViewControllerSectionedDataSource<Section: SectionModelType>: N
     
     open func setSections(_ sections: [Section]) {
         #if DEBUG
-        print("sections: \(sections)")
+//        print("sections: \(sections)")
         #endif
         self._sectionModels = sections.map { SectionModelSnapshot(model: $0, items: $0.items) }
     }
