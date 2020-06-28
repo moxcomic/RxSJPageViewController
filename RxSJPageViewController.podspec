@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RxSJPageViewController"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "RxSJPageViewController"
   s.homepage         = "https://github.com/moxcomic/RxSJPageViewController.git"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
 
   s.dependency "RxSwift"
   s.dependency "RxDataSources"
-  s.dependency "SJPageViewController/ObjC"
+  s.dependency "SJPageViewController/ObjC", '~> 0.0.11'
 end

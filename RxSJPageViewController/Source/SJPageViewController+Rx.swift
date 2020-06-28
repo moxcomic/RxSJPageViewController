@@ -89,6 +89,47 @@ extension Reactive where Base: SJPageViewController {
         }
         return ControlEvent(events: source)
     }
+    
+    public var pageViewControllerDidScroll: ControlEvent<(SJPageViewController)> {
+        let source = delegate.methodInvoked(#selector(SJPageViewControllerDelegate.pageViewControllerDidScroll(_:)))
+            .map { (a) -> (SJPageViewController) in
+                return try castOrThrow(SJPageViewController.self, a[0])
+        }
+        return ControlEvent(events: source)
+    }
+    
+    public var pageViewControllerWillBeginDragging: ControlEvent<(SJPageViewController)> {
+        let source = delegate.methodInvoked(#selector(SJPageViewControllerDelegate.pageViewControllerWillBeginDragging(_:)))
+            .map { (a) -> (SJPageViewController) in
+                return try castOrThrow(SJPageViewController.self, a[0])
+        }
+        return ControlEvent(events: source)
+    }
+    
+    public var pageViewControllerDidEndDragging: ControlEvent<(pageViewController: SJPageViewController, decelerate: Bool)> {
+        let source = delegate.methodInvoked(#selector(SJPageViewControllerDelegate.pageViewControllerDidEndDragging(_:willDecelerate:)))
+            .map { (a) -> (pageViewController: SJPageViewController, decelerate: Bool) in
+                return (try castOrThrow(SJPageViewController.self, a[0]),
+                        try castOrThrow(Bool.self, a[1]))
+        }
+        return ControlEvent(events: source)
+    }
+    
+    public var pageViewControllerWillBeginDecelerating: ControlEvent<(SJPageViewController)> {
+        let source = delegate.methodInvoked(#selector(SJPageViewControllerDelegate.pageViewControllerWillBeginDecelerating(_:)))
+            .map { (a) -> (SJPageViewController) in
+                return try castOrThrow(SJPageViewController.self, a[0])
+        }
+        return ControlEvent(events: source)
+    }
+    
+    public var pageViewControllerDidEndDecelerating: ControlEvent<(SJPageViewController)> {
+        let source = delegate.methodInvoked(#selector(SJPageViewControllerDelegate.pageViewControllerDidEndDecelerating(_:)))
+            .map { (a) -> (SJPageViewController) in
+                return try castOrThrow(SJPageViewController.self, a[0])
+        }
+        return ControlEvent(events: source)
+    }
 }
 
 extension Reactive where Base: SJPageViewController {

@@ -10,15 +10,15 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
-  - SJPageViewController/ObjC (0.0.10):
-    - SJPageViewController/ObjC/PageMenuBar (= 0.0.10)
-    - SJPageViewController/ObjC/PageViewController (= 0.0.10)
-  - SJPageViewController/ObjC/PageMenuBar (0.0.10):
-    - SJPageViewController/ObjC/PageMenuBar/Core (= 0.0.10)
-  - SJPageViewController/ObjC/PageMenuBar/Core (0.0.10)
-  - SJPageViewController/ObjC/PageViewController (0.0.10):
-    - SJPageViewController/ObjC/PageViewController/Core (= 0.0.10)
-  - SJPageViewController/ObjC/PageViewController/Core (0.0.10)
+  - SJPageViewController/ObjC (0.0.11):
+    - SJPageViewController/ObjC/PageMenuBar (= 0.0.11)
+    - SJPageViewController/ObjC/PageViewController (= 0.0.11)
+  - SJPageViewController/ObjC/PageMenuBar (0.0.11):
+    - SJPageViewController/ObjC/PageMenuBar/Core (= 0.0.11)
+  - SJPageViewController/ObjC/PageMenuBar/Core (0.0.11)
+  - SJPageViewController/ObjC/PageViewController (0.0.11):
+    - SJPageViewController/ObjC/PageViewController/Core (= 0.0.11)
+  - SJPageViewController/ObjC/PageViewController/Core (0.0.11)
 
 DEPENDENCIES:
   - RxDataSources
@@ -40,8 +40,8 @@ SPEC CHECKSUMS:
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
-  SJPageViewController: c8110e31f4ca4c9fe1034497ff6919134ebf0bfd
+  SJPageViewController: e0ed15a2ff2a49613a6eaba9bdda35ac7649f70f
 
-PODFILE CHECKSUM: 9bfe740dff71cd97102fead1637becb4d835c4dd
+PODFILE CHECKSUM: 428ae65a349e382e2154a69feb53305aee3d7759
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
